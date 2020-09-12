@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - RedColor
+  - BlueColor
+  - YellowColor
+  - RedNeedle
+  - BlueNeedle
+  - YellowNeedle
   layers:
   - Default
   - TransparentFX
