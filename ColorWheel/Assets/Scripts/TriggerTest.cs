@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class TriggerTest : MonoBehaviour
 {
@@ -10,9 +11,13 @@ public class TriggerTest : MonoBehaviour
     public Sprite Green;
     public Sprite Purple;
     public Sprite Blue;
+
+    ColorsList colorList;
+
+
     void Start()
     {
-
+        colorList = GameObject.Find("ListManager").GetComponent<ColorsList>();
     }
 
     // Update is called once per frame
@@ -28,12 +33,15 @@ public class TriggerTest : MonoBehaviour
         {
             print(" You have the yellow needle");
             this.gameObject.GetComponent<Image>().sprite = Green;
+            colorList.MonsterColors.Add(new Colors("Green", "Secondary"));
+
         }
-        
-       if(collision.gameObject.tag == "RedNeedle")//if the object interacting with blue creature is a red needle.
+
+        if (collision.gameObject.tag == "RedNeedle")//if the object interacting with blue creature is a red needle.
         {
             print("You have the red needle");
             this.gameObject.GetComponent<Image>().sprite = Purple;
+            colorList.MonsterColors.Add(new Colors("Purple", "Secondary"));
         }
     }
 
