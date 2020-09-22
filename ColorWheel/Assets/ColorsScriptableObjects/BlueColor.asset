@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
+  m_Name: BlueColor
+  m_EditorClassIdentifier: 
+  color: Blue
+  type: Primary
+  unlockText: You discovered Blue!
+  isPrimary: 1
+  isSecondary: 0
+  isTertiary: 0
+  isPastel: 0
+  redNeedleUnlock: {fileID: 11400000, guid: fc97e591bad08f04289756fb34644188, type: 2}
+  yellowNeedleUnlock: {fileID: 11400000, guid: 58c871984ffb85f458099d44b6b84762, type: 2}
+  sprite: {fileID: 21300000, guid: 681f5c09896cb44448a98f4b5331678e, type: 3}

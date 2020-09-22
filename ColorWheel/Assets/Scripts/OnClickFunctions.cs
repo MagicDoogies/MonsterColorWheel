@@ -8,6 +8,7 @@ public class OnClickFunctions : MonoBehaviour
     public GameObject CreditsScreen;
     public GameObject MainMenuScreen;
     public GameObject GameScreen;
+    public GameObject Logbook;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,5 +47,11 @@ public class OnClickFunctions : MonoBehaviour
         MainMenuScreen.SetActive(true);
         GameScreen.SetActive(false);
 
+    }
+
+    public void GoToLogBook()
+    {
+        MainMenuScreen.SetActive(false);
+        Logbook.SetActive(true);
     }
 }
