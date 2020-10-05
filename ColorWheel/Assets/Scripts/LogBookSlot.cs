@@ -21,5 +21,13 @@ public class LogBookSlot : MonoBehaviour
         sprite.sprite = colorTemplate.sprite;//the sprite image is set to the image sprite in the referenced scriptable object.
 
         colorName.text = colorTemplate.color;
+
+        
+    }
+
+    public void ShowDescription()
+    {
+        
+        LogBook.logBook.DisplayDescrption(colorTemplate.unlockText);
     }
 }

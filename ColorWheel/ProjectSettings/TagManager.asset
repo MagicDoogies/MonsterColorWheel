@@ -6,10 +6,19 @@ TagManager:
   tags:
   - RedColor
   - BlueColor
-  - YellowColor
   - RedNeedle
-  - BlueNeedle
-  - YellowNeedle
+  - Red
+  - Blue
+  - Yellow
+  - Green
+  - Orange
+  - Purple
+  - Violet
+  - Lime
+  - Teal
+  - Vermillion
+  - Amber
+  - Seafoam
   layers:
   - Default
   - TransparentFX

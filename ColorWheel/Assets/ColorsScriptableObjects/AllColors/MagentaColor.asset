@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
+  m_Name: MagentaColor
+  m_EditorClassIdentifier: 
+  color: Magenta
+  type: Tertiary
+  unlockText: "It exudes righteous power and seething\u2026anger? It\u2019s form
+    is stable and no longer malleable so tempering it with other DNA samples is out
+    of the question. A containment area with lots of space seems ideal for such a
+    creature. Perhaps we should place it with some fellow companions to see how they
+    interact with others. "
+  isPrimary: 0
+  isSecondary: 0
+  isTertiary: 1
+  isPastel: 0
+  redNeedleUnlock: {fileID: 0}
+  yellowNeedleUnlock: {fileID: 0}
+  blueNeedleUnlocked: {fileID: 0}
+  greenNeedleUnlock: {fileID: 0}
+  orangeNeedleUnlock: {fileID: 0}
+  purpleNeedleUnlocked: {fileID: 0}
+  limeNeedleUnlock: {fileID: 0}
+  magentaNeedleUnlock: {fileID: 0}
+  tealNeedleUnlocked: {fileID: 0}
+  vermillionNeedleUnlock: {fileID: 0}
+  violetNeedleUnlock: {fileID: 0}
+  amberNeedleUnlocked: {fileID: 0}
+  blushNeedleUnlock: {fileID: 0}
+  skyNeedleUnlock: {fileID: 0}
+  custardNeedleUnlocked: {fileID: 0}
+  orchidNeedleUnlock: {fileID: 0}
+  seafoamNeedleUnlock: {fileID: 0}
+  peachNeedleUnlocked: {fileID: 0}
+  crystalNeedleUnlock: {fileID: 0}
+  coralNeedleUnlock: {fileID: 0}
+  blueberryNeedleUnlocked: {fileID: 0}
+  bubblegumNeedleUnlock: {fileID: 0}
+  chartreuseNeedleUnlock: {fileID: 0}
+  coffeeNeedleUnlocked: {fileID: 0}
+  brownNeedleUnlocked: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 88c73cef556664242806d483c2e64a7f, type: 3}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OnClickFunctions : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class OnClickFunctions : MonoBehaviour
     public GameObject MainMenuScreen;
     public GameObject GameScreen;
     public GameObject Logbook;
+    public GameObject SubMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,21 +39,46 @@ public class OnClickFunctions : MonoBehaviour
     {
         //this space will activate the main game UI and deactivate all the others.
         print("Starting the game now");
-        GameScreen.SetActive(true);
+        
+        SubMenu.SetActive(true);
         MainMenuScreen.SetActive(false);
     }
 
-    public void GameReturnButton()//if clicked, returns player to the Main menu screen.
+    public void GameReturnButton()//Returns the player to the main game screen. 
     {
         print("Going back to menu screen");
+        SubMenu.SetActive(false);
         MainMenuScreen.SetActive(true);
-        GameScreen.SetActive(false);
+
 
     }
 
-    public void GoToLogBook()
+    public void LogBookToSubmenu()//
     {
-        MainMenuScreen.SetActive(false);
+        Logbook.SetActive(false);
+        SubMenu.SetActive(true);
+    }
+
+    public void SubMenuReturn()//If you are in the labratory scene, you get sent back to the submenu screen. 
+    {
+        GameScreen.SetActive(false);
+        SubMenu.SetActive(true);
+    }
+
+    public void GoToLogBook()//Sends you to the logbook screen.
+    {
+        SubMenu.SetActive(false);
         Logbook.SetActive(true);
+    }
+
+    public void StartGameButton()//Takes you to the submenu when you hit the start button.
+    {
+        GameScreen.SetActive(true);
+        SubMenu.SetActive(false);
+    }
+
+    public void ExitTheGame()//quits the game when pressed
+    {
+        Application.Quit();
     }
 }
