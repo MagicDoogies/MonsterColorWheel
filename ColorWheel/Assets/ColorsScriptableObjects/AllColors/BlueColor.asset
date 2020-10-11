@@ -17,6 +17,11 @@ MonoBehaviour:
   unlockText: "Extremely calm. We almost thought it was still in Null state despite
     its changes in pigmentation. Despite its gooey appearance it has a very sturdy
     cellular wall. Should think about testing it\u2019s durability.   "
+  hexText: 0060FF
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 681f5c09896cb44448a98f4b5331678e, type: 3}
+  BookSprite: {fileID: 21300000, guid: 9484d04892f62a0419fc37f28b26118b, type: 3}
   isPrimary: 1
   isSecondary: 0
   isTertiary: 0
@@ -46,4 +51,3 @@ MonoBehaviour:
   chartreuseNeedleUnlock: {fileID: 0}
   coffeeNeedleUnlocked: {fileID: 0}
   brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 681f5c09896cb44448a98f4b5331678e, type: 3}

@@ -19,6 +19,11 @@ MonoBehaviour:
     of the question. A containment area with lots of space seems ideal for such a
     creature. Perhaps we should place it with some fellow companions to see how they
     interact with others. "
+  hexText: A7194B
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 88c73cef556664242806d483c2e64a7f, type: 3}
+  BookSprite: {fileID: 21300000, guid: e0f04c1e26b3acd44a481bfc72f4661a, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 1
@@ -48,4 +53,3 @@ MonoBehaviour:
   chartreuseNeedleUnlock: {fileID: 0}
   coffeeNeedleUnlocked: {fileID: 0}
   brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 88c73cef556664242806d483c2e64a7f, type: 3}

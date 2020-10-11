@@ -11,6 +11,14 @@ public class LogBook : MonoBehaviour
     public static LogBook logBook;
     // Start is called before the first frame update
     public TMP_Text colorDescription;
+    public TMP_Text nameText;
+    public TMP_Text heightText;
+    public TMP_Text weightText;
+    public TMP_Text typeText;
+    public TMP_Text hexCode;
+
+    public Image colorImage;
+
     public GameObject descriptionPanel;
     public void Awake()
     {
@@ -33,11 +41,36 @@ public class LogBook : MonoBehaviour
 
     }
 
-    public void DisplayDescrption(string description)
+    public void DisplayDescrption(string description)//displays 'unlock text' text in the description box.
     {
         descriptionPanel.SetActive(true);
         colorDescription.text = description;
 
+    }
+
+    public void DisplayColorName(string name)//Displays the colors name in the description box. 
+    {
+        nameText.text = name;
+    }
+    public void DisplayColorWeight(string weight)//Displays the colors' weight in the description box. 
+    {
+        weightText.text = weight; 
+    }
+    public void DisplayColorHeight(string height)//Displays the colors' height in the description box. 
+    {
+        heightText.text = height;
+    }
+    public void DisplayColorHex(string hexnumber)//Displays the colors' hex code in the description box. 
+    {
+        hexCode.text = hexnumber;
+    }
+    public void DisplayColorType(string type)//Displays the color type in the description box. 
+    {
+        typeText.text = type;
+    }
+    public void DisplayColorImage(Image sprite)//Displays the color type in the description box. 
+    {
+        /*colorImage.sprite = sprite;*/
     }
 
     // Update is called once per frame

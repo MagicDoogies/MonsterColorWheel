@@ -18,6 +18,11 @@ MonoBehaviour:
     While we detect no hostility from the organism, they seem to think we are nothing
     more than servants. I\u2019m positive that if it were ever to be let out, it
     would have the power to enforce it\u2019s imposed hierarchy. "
+  hexText: 7E00FF
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 155606f6d30d4854f849696174c2cadf, type: 3}
+  BookSprite: {fileID: 21300000, guid: 2ed5ef850aa06be49a3d67f126926fca, type: 3}
   isPrimary: 0
   isSecondary: 1
   isTertiary: 0
@@ -47,4 +52,3 @@ MonoBehaviour:
   chartreuseNeedleUnlock: {fileID: 0}
   coffeeNeedleUnlocked: {fileID: 0}
   brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 155606f6d30d4854f849696174c2cadf, type: 3}

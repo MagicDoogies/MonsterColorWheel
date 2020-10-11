@@ -17,6 +17,11 @@ MonoBehaviour:
   unlockText: 'Very attentive to its surroundings. It seems interested in us. Almost
     like it wants to play. An experiment for another day. We do not know how safe
     it is to have physical contact with these organisms. '
+  hexText: FFE400
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: bf11576371c3c674792663dd27d8c725, type: 3}
+  BookSprite: {fileID: 21300000, guid: 5d7a06ea53a4c0545a1fa41a3509b372, type: 3}
   isPrimary: 1
   isSecondary: 0
   isTertiary: 0
@@ -46,4 +51,3 @@ MonoBehaviour:
   chartreuseNeedleUnlock: {fileID: 0}
   coffeeNeedleUnlocked: {fileID: 0}
   brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: bf11576371c3c674792663dd27d8c725, type: 3}

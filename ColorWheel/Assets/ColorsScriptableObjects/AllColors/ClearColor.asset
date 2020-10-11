@@ -13,9 +13,14 @@ MonoBehaviour:
   m_Name: ClearColor
   m_EditorClassIdentifier: 
   color: Clear
-  type: 
+  type: Null
   unlockText: 'A breakthrough experiment created in the labs. Its genetic makeup
     is unstable and malleable. An empty vessel waiting to contain something. '
+  hexText: ' - - - - - -'
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 0e30109e97576774f90ea0a9dd7ff802, type: 3}
+  BookSprite: {fileID: 21300000, guid: f2cacc30b0b491449ab733c0cb352888, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -45,4 +50,3 @@ MonoBehaviour:
   chartreuseNeedleUnlock: {fileID: 0}
   coffeeNeedleUnlocked: {fileID: 0}
   brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 0e30109e97576774f90ea0a9dd7ff802, type: 3}

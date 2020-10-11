@@ -18,6 +18,11 @@ MonoBehaviour:
     of Yellow. I fear that it will hurt itself with its attempts at escaping the
     confines of its tube to interact with me. I will put in a request for the higherups
     to allow for physical contact and observation. '
+  hexText: FF5500
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 83365a04a34e8b14fa9be0ecdd0f4440, type: 3}
+  BookSprite: {fileID: 21300000, guid: 05066d9286e19644ab7d7dd7577911c6, type: 3}
   isPrimary: 0
   isSecondary: 1
   isTertiary: 0
@@ -47,4 +52,3 @@ MonoBehaviour:
   chartreuseNeedleUnlock: {fileID: 0}
   coffeeNeedleUnlocked: {fileID: 0}
   brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 83365a04a34e8b14fa9be0ecdd0f4440, type: 3}
