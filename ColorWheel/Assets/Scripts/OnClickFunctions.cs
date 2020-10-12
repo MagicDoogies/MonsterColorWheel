@@ -11,6 +11,9 @@ public class OnClickFunctions : MonoBehaviour
     public GameObject GameScreen;
     public GameObject Logbook;
     public GameObject SubMenu;
+
+    public ColorContainer unlockedColors;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +45,8 @@ public class OnClickFunctions : MonoBehaviour
         
         SubMenu.SetActive(true);
         MainMenuScreen.SetActive(false);
+        unlockedColors.elements.Clear();// Clears the list when the player hits the start button. 
+
     }
 
     public void GameReturnButton()//Returns the player to the main game screen. 

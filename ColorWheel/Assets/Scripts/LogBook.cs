@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Linq;
 
 public class LogBook : MonoBehaviour
 {
@@ -28,10 +29,12 @@ public class LogBook : MonoBehaviour
     {
         foreach (Transform child in transform)//if any slots already exist in the logbook, delete it.
         {
-            Destroy(child);
+            Debug.Log(child.name);
+          /*  child.name += "I'm going away now";*/
+            Destroy(child.gameObject);
         }
 
-        foreach (var color in displayColors.elements)
+        foreach (var color in displayColors.elements.Distinct())/*GroupBy(c => c.color).Select(g => g.First()).ToList())*/
         {
            var slot =  Instantiate(slotprefab, transform);//creates a new instance of a logbook slot as a reference in the variable.
             slot.colorTemplate = color;//getting the slot just creating and setting it to the current color on the list.
@@ -68,9 +71,9 @@ public class LogBook : MonoBehaviour
     {
         typeText.text = type;
     }
-    public void DisplayColorImage(Image sprite)//Displays the color type in the description box. 
+    public void DisplayColorImage(Sprite sprite)//Displays the color type in the description box. 
     {
-        /*colorImage.sprite = sprite;*/
+        colorImage.sprite = sprite;
     }
 
     // Update is called once per frame

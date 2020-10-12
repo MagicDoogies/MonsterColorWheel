@@ -12,11 +12,12 @@ public class TriggerTest : MonoBehaviour
 
     public ColorContainer unlockedColors;
     public Colors currentColor;
+    public Colors initialColor; // The first color that the player gets when they start the game. 
 
-    void Start()
+    void OnEnable()
     {
-        unlockedColors.elements.Clear();//Everytime the game starts the list clears.
-        SetColor(currentColor);//automatically adds whatever is the initial current color (blue) into the unlocked colors scriptable object.
+        
+        SetColor(initialColor); //Upon the list being cleared, insures that the first unlocked color is 'clear' sprite.  
     }
 
     // Update is called once per frame

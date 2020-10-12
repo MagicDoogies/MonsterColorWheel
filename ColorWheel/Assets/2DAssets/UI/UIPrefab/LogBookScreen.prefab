@@ -171,7 +171,7 @@ RectTransform:
   - {fileID: 4902178180977508862}
   - {fileID: 5062257165920234586}
   m_Father: {fileID: 6549505813388293401}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1125,9 +1125,9 @@ RectTransform:
   - {fileID: 3664269213039866214}
   - {fileID: 7836416306811060446}
   - {fileID: 3468372157665303131}
-  - {fileID: 6738093483958711033}
   - {fileID: 8810272521863600367}
   - {fileID: 8050053938359027933}
+  - {fileID: 6738093483958711033}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1432,7 +1432,7 @@ RectTransform:
   m_LocalScale: {x: 2.91168, y: 2.91168, z: 2.91168}
   m_Children: []
   m_Father: {fileID: 6549505813388293401}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1510,7 +1510,7 @@ RectTransform:
   m_Children:
   - {fileID: 2730218625119131535}
   m_Father: {fileID: 6549505813388293401}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1570,6 +1570,12 @@ MonoBehaviour:
   slotprefab: {fileID: 3300828256622482302, guid: d79eeda3a3cba7848a67a8e1c408ed2a, type: 3}
   displayColors: {fileID: 11400000, guid: 45e0a1ff50245fa44a6b7ba8bb8eb589, type: 2}
   colorDescription: {fileID: 7388078954714345423}
+  nameText: {fileID: 0}
+  heightText: {fileID: 0}
+  weightText: {fileID: 0}
+  typeText: {fileID: 0}
+  hexCode: {fileID: 0}
+  colorImage: {fileID: 0}
   descriptionPanel: {fileID: 506033471902119916}
 --- !u!114 &6980602746553280287
 MonoBehaviour:
