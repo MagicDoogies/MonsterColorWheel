@@ -15,6 +15,12 @@ MonoBehaviour:
   color: 'Blush '
   type: Pastel
   unlockText: You discovered blush!
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: ae555501bcac8234ea5db8621762108f, type: 3}
+  BookSprite: {fileID: 0}
+  dexImageSprite: {fileID: 0}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -22,4 +28,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: ae555501bcac8234ea5db8621762108f, type: 3}
+  pastelBlueUnlocked: {fileID: 11400000, guid: 1b498f925f4b62e4b86fbded5844e9b8, type: 2}
+  pastelRedUnlocked: {fileID: 0}
+  pastelYellowunlocked: {fileID: 11400000, guid: 4035fa3918d1cd54495fb144af8896cf, type: 2}

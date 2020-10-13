@@ -15,6 +15,12 @@ MonoBehaviour:
   color: Sky
   type: Pastel
   unlockText: You unlocked pastel blue!
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 164a0e2f911c7a44f82f3b85dcd4cf13, type: 3}
+  BookSprite: {fileID: 0}
+  dexImageSprite: {fileID: 0}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -22,4 +28,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 164a0e2f911c7a44f82f3b85dcd4cf13, type: 3}
+  pastelBlueUnlocked: {fileID: 0}
+  pastelRedUnlocked: {fileID: 11400000, guid: 9bed10b3e6002e84b95d3ab932c70bff, type: 2}
+  pastelYellowunlocked: {fileID: 11400000, guid: 1b498f925f4b62e4b86fbded5844e9b8, type: 2}

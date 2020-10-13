@@ -15,6 +15,12 @@ MonoBehaviour:
   color: Seafoam
   type: Pastel
   unlockText: You discovered seafoam!
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: f779dacb98cf4084db2635b04c5dd054, type: 3}
+  BookSprite: {fileID: 0}
+  dexImageSprite: {fileID: 0}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -22,4 +28,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: f779dacb98cf4084db2635b04c5dd054, type: 3}
+  pastelBlueUnlocked: {fileID: 11400000, guid: cf735bfe01134974191ee71096947a56, type: 2}
+  pastelRedUnlocked: {fileID: 11400000, guid: 9576ae583635ec2478ceef5356511298, type: 2}
+  pastelYellowunlocked: {fileID: 11400000, guid: 16b338073c837b14db2ccab5f0734fbb, type: 2}

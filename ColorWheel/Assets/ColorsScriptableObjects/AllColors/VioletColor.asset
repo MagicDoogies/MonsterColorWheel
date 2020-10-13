@@ -19,33 +19,19 @@ MonoBehaviour:
     us just as much as we are examining them. Maybe they would make for a great worker
     in these labs. I would have to test to see if they have the cognitive intelligence
     for such an occupation. '
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 85d69cb14c6809948819762e964a0c4f, type: 3}
+  BookSprite: {fileID: 21300000, guid: 887496151cbdc5843ab558c722075822, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: d4ce5bd6c130ff344bff62e2b21e7bf9, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 1
   isPastel: 0
   redNeedleUnlock: {fileID: 0}
-  yellowNeedleUnlock: {fileID: 0}
+  yellowNeedleUnlock: {fileID: 11400000, guid: 4cab7528d7cb54f4e8b2eaaba26328dd, type: 2}
   blueNeedleUnlocked: {fileID: 0}
-  greenNeedleUnlock: {fileID: 0}
-  orangeNeedleUnlock: {fileID: 0}
-  purpleNeedleUnlocked: {fileID: 0}
-  limeNeedleUnlock: {fileID: 0}
-  magentaNeedleUnlock: {fileID: 0}
-  tealNeedleUnlocked: {fileID: 0}
-  vermillionNeedleUnlock: {fileID: 0}
-  violetNeedleUnlock: {fileID: 0}
-  amberNeedleUnlocked: {fileID: 0}
-  blushNeedleUnlock: {fileID: 0}
-  skyNeedleUnlock: {fileID: 0}
-  custardNeedleUnlocked: {fileID: 0}
-  orchidNeedleUnlock: {fileID: 0}
-  seafoamNeedleUnlock: {fileID: 0}
-  peachNeedleUnlocked: {fileID: 0}
-  crystalNeedleUnlock: {fileID: 0}
-  coralNeedleUnlock: {fileID: 0}
-  blueberryNeedleUnlocked: {fileID: 0}
-  bubblegumNeedleUnlock: {fileID: 0}
-  chartreuseNeedleUnlock: {fileID: 0}
-  coffeeNeedleUnlocked: {fileID: 0}
-  brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 85d69cb14c6809948819762e964a0c4f, type: 3}
+  pastelBlueUnlocked: {fileID: 0}
+  pastelRedUnlocked: {fileID: 0}
+  pastelYellowunlocked: {fileID: 0}

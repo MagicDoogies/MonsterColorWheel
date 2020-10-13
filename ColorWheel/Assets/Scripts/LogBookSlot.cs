@@ -34,7 +34,7 @@ public class LogBookSlot : MonoBehaviour
         LogBook.logBook.DisplayColorHex(colorTemplate.hexText);
         LogBook.logBook.DisplayColorHeight(colorTemplate.heightText);
         LogBook.logBook.DisplayColorWeight(colorTemplate.weightText);
-        LogBook.logBook.DisplayColorImage(colorTemplate.sprite);
+        LogBook.logBook.DisplayColorImage(colorTemplate.dexImageSprite);
 
 
     }

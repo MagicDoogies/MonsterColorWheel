@@ -21,6 +21,7 @@ MonoBehaviour:
   weightText: 0 lbs
   sprite: {fileID: 21300000, guid: 0e30109e97576774f90ea0a9dd7ff802, type: 3}
   BookSprite: {fileID: 21300000, guid: f2cacc30b0b491449ab733c0cb352888, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: 2c62d910ef27fb240ba969ee64e07fb5, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -28,25 +29,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 11400000, guid: fd1e0aeffdea53d4c9c580cbb137add1, type: 2}
   yellowNeedleUnlock: {fileID: 11400000, guid: b43a6aed4b723704b8c68a0b75bfc038, type: 2}
   blueNeedleUnlocked: {fileID: 11400000, guid: ca1f78eddf8819a4698e62e90e5b7ff8, type: 2}
-  greenNeedleUnlock: {fileID: 0}
-  orangeNeedleUnlock: {fileID: 0}
-  purpleNeedleUnlocked: {fileID: 0}
-  limeNeedleUnlock: {fileID: 0}
-  magentaNeedleUnlock: {fileID: 0}
-  tealNeedleUnlocked: {fileID: 0}
-  vermillionNeedleUnlock: {fileID: 0}
-  violetNeedleUnlock: {fileID: 0}
-  amberNeedleUnlocked: {fileID: 0}
-  blushNeedleUnlock: {fileID: 0}
-  skyNeedleUnlock: {fileID: 0}
-  custardNeedleUnlocked: {fileID: 0}
-  orchidNeedleUnlock: {fileID: 0}
-  seafoamNeedleUnlock: {fileID: 0}
-  peachNeedleUnlocked: {fileID: 0}
-  crystalNeedleUnlock: {fileID: 0}
-  coralNeedleUnlock: {fileID: 0}
-  blueberryNeedleUnlocked: {fileID: 0}
-  bubblegumNeedleUnlock: {fileID: 0}
-  chartreuseNeedleUnlock: {fileID: 0}
-  coffeeNeedleUnlocked: {fileID: 0}
-  brownNeedleUnlocked: {fileID: 0}
+  pastelBlueUnlocked: {fileID: 11400000, guid: c994918dda4a5524db1fbc4871c95274, type: 2}
+  pastelRedUnlocked: {fileID: 11400000, guid: bcbdac65ed09bef419b6e5549d529a3d, type: 2}
+  pastelYellowunlocked: {fileID: 11400000, guid: 1778a85a47951d74a9c531654e6d7c81, type: 2}

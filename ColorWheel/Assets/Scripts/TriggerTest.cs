@@ -59,71 +59,89 @@ public class TriggerTest : MonoBehaviour
             SetColor(currentColor.blueNeedleUnlocked);
 
         }
-        if (collision.gameObject.tag == "Green")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+        if (collision.gameObject.tag == "PastelBlue")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
-            SetColor(currentColor.greenNeedleUnlock);
+            SetColor(currentColor.pastelBlueUnlocked);
 
         }
-        if (collision.gameObject.tag == "Orange")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+        if (collision.gameObject.tag == "PastelYellow")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
-            SetColor(currentColor.orangeNeedleUnlock);
+            SetColor(currentColor.pastelYellowunlocked);
 
         }
-        if (collision.gameObject.tag == "Purple")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+        if (collision.gameObject.tag == "PastelRed")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
-            SetColor(currentColor.purpleNeedleUnlocked);
+            SetColor(currentColor.pastelRedUnlocked);
 
         }
-        if (collision.gameObject.tag == "Lime")//if the object interacting with blue creature is a yellow needle.
-        {
+        /*        if (collision.gameObject.tag == "Green")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+                {
+
+                    SetColor(currentColor.greenNeedleUnlock);
+
+                }
+                if (collision.gameObject.tag == "Orange")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+                {
+
+                    SetColor(currentColor.orangeNeedleUnlock);
+
+                }
+                if (collision.gameObject.tag == "Purple")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+                {
+
+                    SetColor(currentColor.purpleNeedleUnlocked);
+
+                }
+                if (collision.gameObject.tag == "Lime")//if the object interacting with blue creature is a yellow needle.
+                {
 
 
-            SetColor(currentColor.limeNeedleUnlock);//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+                    SetColor(currentColor.limeNeedleUnlock);//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
 
-        }
+                }*/
 
-        if (collision.gameObject.tag == "Magenta")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
-        {
+        /*    if (collision.gameObject.tag == "Magenta")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+            {
 
-            SetColor(currentColor.magentaNeedleUnlock);
+                SetColor(currentColor.magentaNeedleUnlock);
 
-        }
-        if (collision.gameObject.tag == "Teal")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
-        {
+            }
+            if (collision.gameObject.tag == "Teal")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+            {
 
-            SetColor(currentColor.tealNeedleUnlocked);
+                SetColor(currentColor.tealNeedleUnlocked);
 
-        }
-        if (collision.gameObject.tag == "Vermillion")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
-        {
+            }
+            if (collision.gameObject.tag == "Vermillion")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+            {
 
-            SetColor(currentColor.vermillionNeedleUnlock);
+                SetColor(currentColor.vermillionNeedleUnlock);
 
-        }
-        if (collision.gameObject.tag == "Violet")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
-        {
+            }
+            if (collision.gameObject.tag == "Violet")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+            {
 
-            SetColor(currentColor.violetNeedleUnlock);
+                SetColor(currentColor.violetNeedleUnlock);
 
-        }
-        if (collision.gameObject.tag == "Amber")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
-        {
+            }
+            if (collision.gameObject.tag == "Amber")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+            {
 
-            SetColor(currentColor.amberNeedleUnlocked);
+                SetColor(currentColor.amberNeedleUnlocked);
 
-        }
-        if (collision.gameObject.tag == "Blush")//if the object interacting with blue creature is a yellow needle.
-        {
+            }
+            if (collision.gameObject.tag == "Blush")//if the object interacting with blue creature is a yellow needle.
+            {
 
 
-            SetColor(currentColor.blushNeedleUnlock);//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+                SetColor(currentColor.blushNeedleUnlock);//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
 
-        }
+            }*/
 
-        if (collision.gameObject.tag == "Sky")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+        /*if (collision.gameObject.tag == "Sky")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
             SetColor(currentColor.skyNeedleUnlock);
@@ -159,9 +177,9 @@ public class TriggerTest : MonoBehaviour
 
             SetColor(currentColor.crystalNeedleUnlock);//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
 
-        }
+        }*/
 
-        if (collision.gameObject.tag == "Coral")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
+        /*if (collision.gameObject.tag == "Coral")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
             SetColor(currentColor.coralNeedleUnlock);
@@ -196,7 +214,7 @@ public class TriggerTest : MonoBehaviour
 
             SetColor(currentColor.coffeeNeedleUnlocked);
 
-        }
+        }*/
     }
 
 }

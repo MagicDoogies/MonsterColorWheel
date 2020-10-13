@@ -13,6 +13,7 @@ public class Colors: ScriptableObject
     public string weightText; 
     public Sprite sprite;
     public Sprite BookSprite;
+    public Sprite dexImageSprite;
     public bool isPrimary;
     public bool isSecondary;
     public bool isTertiary;
@@ -22,7 +23,11 @@ public class Colors: ScriptableObject
     public Colors redNeedleUnlock;
     public Colors yellowNeedleUnlock;
     public Colors blueNeedleUnlocked;
-    public Colors greenNeedleUnlock;
+
+    public Colors pastelBlueUnlocked;
+    public Colors pastelRedUnlocked;
+    public Colors pastelYellowunlocked;
+   /* public Colors greenNeedleUnlock;
     public Colors orangeNeedleUnlock;
     public Colors purpleNeedleUnlocked;
     public Colors limeNeedleUnlock;
@@ -43,7 +48,7 @@ public class Colors: ScriptableObject
     public Colors bubblegumNeedleUnlock;
     public Colors chartreuseNeedleUnlock;
     public Colors coffeeNeedleUnlocked;
-    public Colors brownNeedleUnlocked;
+    public Colors brownNeedleUnlocked;*/
 
 
 

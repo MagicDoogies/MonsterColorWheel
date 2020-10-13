@@ -15,6 +15,12 @@ MonoBehaviour:
   color: Peach
   type: Pastel
   unlockText: You discovered peach!
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: c4be2a0dc8c23654fb86a6eb7f64fa0b, type: 3}
+  BookSprite: {fileID: 0}
+  dexImageSprite: {fileID: 0}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -22,4 +28,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: c4be2a0dc8c23654fb86a6eb7f64fa0b, type: 3}
+  pastelBlueUnlocked: {fileID: 11400000, guid: 9576ae583635ec2478ceef5356511298, type: 2}
+  pastelRedUnlocked: {fileID: 11400000, guid: 2635949f7cc39b043bd472e32bcef5c0, type: 2}
+  pastelYellowunlocked: {fileID: 11400000, guid: 6ed28287173b8c048adc71f38ce54983, type: 2}

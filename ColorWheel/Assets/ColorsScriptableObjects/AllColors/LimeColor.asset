@@ -18,6 +18,12 @@ MonoBehaviour:
     always playing pranks and causing quite the confusion amongst staff and personnel
     alike. One day it\u2019s going to anger the wrong test subject, and it will really
     be in for it. "
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: 00ded7725bfe9cf44b6afc114b265141, type: 3}
+  BookSprite: {fileID: 21300000, guid: 34aded83c1e0101409d671a49d2f9a86, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: 00ded7725bfe9cf44b6afc114b265141, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 1
@@ -25,26 +31,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  greenNeedleUnlock: {fileID: 0}
-  orangeNeedleUnlock: {fileID: 0}
-  purpleNeedleUnlocked: {fileID: 0}
-  limeNeedleUnlock: {fileID: 0}
-  magentaNeedleUnlock: {fileID: 0}
-  tealNeedleUnlocked: {fileID: 0}
-  vermillionNeedleUnlock: {fileID: 0}
-  violetNeedleUnlock: {fileID: 0}
-  amberNeedleUnlocked: {fileID: 0}
-  blushNeedleUnlock: {fileID: 0}
-  skyNeedleUnlock: {fileID: 0}
-  custardNeedleUnlocked: {fileID: 0}
-  orchidNeedleUnlock: {fileID: 0}
-  seafoamNeedleUnlock: {fileID: 0}
-  peachNeedleUnlocked: {fileID: 0}
-  crystalNeedleUnlock: {fileID: 0}
-  coralNeedleUnlock: {fileID: 0}
-  blueberryNeedleUnlocked: {fileID: 0}
-  bubblegumNeedleUnlock: {fileID: 0}
-  chartreuseNeedleUnlock: {fileID: 0}
-  coffeeNeedleUnlocked: {fileID: 0}
-  brownNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: 00ded7725bfe9cf44b6afc114b265141, type: 3}
+  pastelBlueUnlocked: {fileID: 0}
+  pastelRedUnlocked: {fileID: 0}
+  pastelYellowunlocked: {fileID: 0}

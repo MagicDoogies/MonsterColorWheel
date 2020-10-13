@@ -15,6 +15,12 @@ MonoBehaviour:
   color: Orchid
   type: Pastel
   unlockText: You unlocked orchid!
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: e4753f8b867e5d746a4c185a24c69c77, type: 3}
+  BookSprite: {fileID: 0}
+  dexImageSprite: {fileID: 0}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -22,4 +28,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: e4753f8b867e5d746a4c185a24c69c77, type: 3}
+  pastelBlueUnlocked: {fileID: 11400000, guid: b73a31fc1ab85be4f8c40bb5355b673f, type: 2}
+  pastelRedUnlocked: {fileID: 11400000, guid: 7423b78668792404ca4e41d426dda5be, type: 2}
+  pastelYellowunlocked: {fileID: 11400000, guid: 9576ae583635ec2478ceef5356511298, type: 2}
