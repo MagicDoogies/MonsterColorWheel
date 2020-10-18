@@ -11,6 +11,7 @@ public class OnClickFunctions : MonoBehaviour
     public GameObject GameScreen;
     public GameObject Logbook;
     public GameObject SubMenu;
+    public LogBook logbookScript;
 
     public ColorContainer unlockedColors;
 
@@ -85,5 +86,26 @@ public class OnClickFunctions : MonoBehaviour
     public void ExitTheGame()//quits the game when pressed
     {
         Application.Quit();
+    }
+
+    public void PageForward()
+    {
+        if (logbookScript.pageNumber <= 4)
+        {
+            logbookScript.pageNumber++;
+            logbookScript.ClearLogbookPage();
+            logbookScript.FillLogbookPageBasedOnPageNumber();
+        }
+    }
+    public void PageBackward()
+    {
+        //if pagenum is not zero
+        //decrease pagenum by one
+        if (logbookScript.pageNumber > 0)
+        {
+            logbookScript.pageNumber--;
+            logbookScript.ClearLogbookPage();
+            logbookScript.FillLogbookPageBasedOnPageNumber();
+        }
     }
 }

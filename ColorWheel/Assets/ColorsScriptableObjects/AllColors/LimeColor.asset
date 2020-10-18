@@ -18,12 +18,12 @@ MonoBehaviour:
     always playing pranks and causing quite the confusion amongst staff and personnel
     alike. One day it\u2019s going to anger the wrong test subject, and it will really
     be in for it. "
-  hexText: 
+  hexText: D0EA2B
   heightText: 
   weightText: 
   sprite: {fileID: 21300000, guid: 00ded7725bfe9cf44b6afc114b265141, type: 3}
   BookSprite: {fileID: 21300000, guid: 34aded83c1e0101409d671a49d2f9a86, type: 3}
-  dexImageSprite: {fileID: 21300000, guid: 00ded7725bfe9cf44b6afc114b265141, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: c49f757da8f4fa34eb66b291c3b19caf, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 1

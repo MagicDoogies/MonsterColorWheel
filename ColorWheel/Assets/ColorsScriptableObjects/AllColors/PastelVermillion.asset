@@ -15,6 +15,12 @@ MonoBehaviour:
   color: Coral
   type: Pastel
   unlockText: You discovered coral!
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: c9e2296dce952de43bbd95cbae5b39a7, type: 3}
+  BookSprite: {fileID: 21300000, guid: a8de65b21fba464438d622c2ee475503, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: d6e48e37053314a4393cfa02e4693544, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -22,4 +28,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: e47a5a396c0823448842d9e1863007fb, type: 3}
+  pastelBlueUnlocked: {fileID: 0}
+  pastelRedUnlocked: {fileID: 0}
+  pastelYellowunlocked: {fileID: 0}

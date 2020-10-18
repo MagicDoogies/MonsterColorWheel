@@ -21,28 +21,48 @@ public class LogBook : MonoBehaviour
     public Image colorImage;
 
     public GameObject descriptionPanel;
+
+    [HideInInspector] public int maxSlots = 9;// Set the maximum number of slots that show up on a single page. Public to other scripts. Private on the inspector.  
+    public int pageNumber = 0;
+
     public void Awake()
     {
         logBook = this;
     }
     void OnEnable()
     {
+        ClearLogbookPage();
+        FillLogbookPageBasedOnPageNumber();
+    }
+
+    public void ClearLogbookPage()
+    {
         foreach (Transform child in transform)//if any slots already exist in the logbook, delete it.
         {
             Debug.Log(child.name);
-          /*  child.name += "I'm going away now";*/
+            /*  child.name += "I'm going away now";*/
             Destroy(child.gameObject);
         }
-
-        foreach (var color in displayColors.elements.Distinct())/*GroupBy(c => c.color).Select(g => g.First()).ToList())*/
-        {
-           var slot =  Instantiate(slotprefab, transform);//creates a new instance of a logbook slot as a reference in the variable.
-            slot.colorTemplate = color;//getting the slot just creating and setting it to the current color on the list.
-            
-        }
-
-
     }
+
+    public void FillLogbookPageBasedOnPageNumber()
+    {
+        for (int i = 0; i < maxSlots; i++)// This loops runs from zero to the number of max slots. 
+        {
+            Debug.Log("The loop index is: " + i);
+            int dexNumber = i + maxSlots * pageNumber; // Checks to see it's position in the current pages 1-9
+
+            if (dexNumber > displayColors.elements.Count - 1) break; //If the last entry of the logbook is reached, stop counting. 
+
+            Debug.Log("The dex number is: " + dexNumber);
+            if (displayColors.elements[dexNumber] != null)// 
+            {
+                var slot = Instantiate(slotprefab, transform);//creates a new instance of a logbook slot as a reference in the variable.
+                slot.colorTemplate = displayColors.elements[dexNumber];//getting the slot just creating and setting it to the current color on the list.
+            }
+        }
+    }
+
 
     public void DisplayDescrption(string description)//displays 'unlock text' text in the description box.
     {

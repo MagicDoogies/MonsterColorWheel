@@ -15,6 +15,12 @@ MonoBehaviour:
   color: Sand
   type: Pastel
   unlockText: You unlocked sand!
+  hexText: 
+  heightText: 
+  weightText: 
+  sprite: {fileID: 21300000, guid: c8e371832a7af6b45acf9dc4b31c803d, type: 3}
+  BookSprite: {fileID: 21300000, guid: 8ebdd38fc1ce9464ab087cf346cf746e, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: a9c320c4f103bf74183ea8ff2b49b38d, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -22,4 +28,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  sprite: {fileID: 21300000, guid: c8e371832a7af6b45acf9dc4b31c803d, type: 3}
+  pastelBlueUnlocked: {fileID: 0}
+  pastelRedUnlocked: {fileID: 0}
+  pastelYellowunlocked: {fileID: 0}

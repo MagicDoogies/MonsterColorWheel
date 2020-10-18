@@ -30,7 +30,10 @@ public class TriggerTest : MonoBehaviour
     {
         gameObject.GetComponent<Image>().sprite = newColor.sprite;//Setting the current sprite to be the current sprite. 
         print(" You unlocked a new color." + newColor.color);// lets me know what color I currenlty added to the unlocked scriptable item list.
-        unlockedColors.elements.Add(newColor);//Adds the new color to the unlocked colors scriptable object. (to do: Do not allow duplicates.)
+        if (!unlockedColors.elements.Contains(newColor))//Checking if the color is already in the list
+        {
+            unlockedColors.elements.Add(newColor);//Adds the new color to the unlocked colors scriptable object. (to do: Do not allow duplicates.)
+        }
         currentColor = newColor;// Sets the new current color.
 
     }

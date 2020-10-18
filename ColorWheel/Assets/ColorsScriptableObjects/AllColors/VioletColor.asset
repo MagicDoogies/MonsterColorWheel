@@ -19,7 +19,7 @@ MonoBehaviour:
     us just as much as we are examining them. Maybe they would make for a great worker
     in these labs. I would have to test to see if they have the cognitive intelligence
     for such an occupation. '
-  hexText: 
+  hexText: 3D01A4
   heightText: 
   weightText: 
   sprite: {fileID: 21300000, guid: 85d69cb14c6809948819762e964a0c4f, type: 3}

@@ -19,8 +19,8 @@ MonoBehaviour:
   heightText: 
   weightText: 
   sprite: {fileID: 21300000, guid: b4ae1aabbb454c34bb64cd02d95b7a2e, type: 3}
-  BookSprite: {fileID: 0}
-  dexImageSprite: {fileID: 0}
+  BookSprite: {fileID: 21300000, guid: 1074ccde1fb220d4586ec99db575780d, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: 8edf8ae63ffae9844b96242ae7c63cda, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
     extremely stable from a biological standpoint. We don\u2019t think it\u2019s
     possible to continue altering it with syringes. We will place it in an appropriate
     aquatic environment for further study. "
-  hexText: 
+  hexText: 0392CE
   heightText: 
   weightText: 
   sprite: {fileID: 21300000, guid: e21e1b8b766c3b441add26fc1a5e587f, type: 3}
