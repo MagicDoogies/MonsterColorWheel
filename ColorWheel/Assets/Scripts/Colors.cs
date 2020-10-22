@@ -14,6 +14,9 @@ public class Colors: ScriptableObject
     public Sprite sprite;
     public Sprite BookSprite;
     public Sprite dexImageSprite;
+   /* public Sprite redNeedle;
+    public Sprite blueNeedle;
+    public Sprite yellowNeedle;*/
     public bool isPrimary;
     public bool isSecondary;
     public bool isTertiary;

@@ -4,21 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - RedColor
-  - BlueColor
-  - RedNeedle
   - Red
   - Blue
   - Yellow
-  - Green
-  - Orange
-  - Purple
-  - Violet
-  - Lime
-  - Teal
-  - Vermillion
-  - Amber
-  - Seafoam
+  - PastelBlue
+  - PastelYellow
+  - PastelRed
   layers:
   - Default
   - TransparentFX

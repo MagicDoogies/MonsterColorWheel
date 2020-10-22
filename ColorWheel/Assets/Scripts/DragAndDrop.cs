@@ -8,7 +8,8 @@ using UnityEngine.EventSystems;
     private RectTransform rectTransform;//containter to grab the image size of the affected object.
 
     [SerializeField] private Canvas canvas;//containter for UI canvas gameObject;
-    
+
+    public ResultsBox needleResult;
     
     
     private void Awake()
@@ -35,7 +36,10 @@ using UnityEngine.EventSystems;
   public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("OnPointerDown");
+        needleResult.NeedleClicked(this.gameObject);
         throw new System.NotImplementedException();
+
+
     }
 
 

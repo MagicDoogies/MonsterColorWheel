@@ -14,6 +14,8 @@ public class OnClickFunctions : MonoBehaviour
     public LogBook logbookScript;
 
     public ColorContainer unlockedColors;
+    public TriggerTest resetColor;
+    public bool ColorReset = false;
 
     // Start is called before the first frame update
     void Start()
@@ -107,5 +109,10 @@ public class OnClickFunctions : MonoBehaviour
             logbookScript.ClearLogbookPage();
             logbookScript.FillLogbookPageBasedOnPageNumber();
         }
+    }
+
+    public void ResetButton() //When this button is clicked it changes the sprite back to clear. This does NOT clear the elements list.
+    {
+       
     }
 }
