@@ -30,12 +30,8 @@ public class ResultsBox : MonoBehaviour
 
     public void MonsterChange(Colors resultColor)
     {
-        if (resultColor.color != "Clear")
-        {
-            resultImage.sprite = resultColor.sprite;
-
-           
-        }
+        resultImage.sprite = resultColor.BookSprite;
+      
         color2.text = resultColor.color;
 
     }
@@ -46,33 +42,33 @@ public class ResultsBox : MonoBehaviour
         if( needleTag.tag == "Red")
         {
             Debug.Log(needleColor.text);
-            resultImage.sprite = currentColor.redNeedleUnlock.sprite;
+            resultImage.sprite = currentColor.redResult;
            
         }
         if (needleTag.tag == "Blue")
         {
             Debug.Log(needleColor.text);
-            resultImage.sprite = currentColor.blueNeedleUnlocked.sprite;
+            resultImage.sprite = currentColor.blueResult;
         }
         if(needleTag.tag == "Yellow")
         {
             Debug.Log(needleColor.text);
-            resultImage.sprite = currentColor.yellowNeedleUnlock.sprite; 
+            resultImage.sprite = currentColor.yellowResult; 
         }
         if(needleTag.tag == "PastelBlue")
         {
             Debug.Log(needleColor.text);
-            resultImage.sprite = currentColor.pastelBlueUnlocked.sprite;
+            resultImage.sprite = currentColor.pastelBlueResult;
         }
         if(needleTag.tag == "PastelRed")
         {
             Debug.Log(needleColor.text);
-            resultImage.sprite = currentColor.pastelRedUnlocked.sprite;
+            resultImage.sprite = currentColor.pastelRedResult;
         }
         if(needleTag.tag == "PastelYellow")
         {
             Debug.Log(needleColor.text);
-            resultImage.sprite = currentColor.pastelYellowunlocked.sprite;
+            resultImage.sprite = currentColor.pastelYellowResult;
         }
     }
     

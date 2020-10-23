@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Orchid
   type: Pastel
-  unlockText: You unlocked orchid!
-  hexText: 
-  heightText: 
-  weightText: 
+  unlockText: "It puts on a hypnotic performance for anyone who wants to spectate.
+    #D75C5C and #F5DFB8 are big fans of its dances. It\u2019s really nice to see
+    to see fellow experiments support each other for once. "
+  hexText: D7AFFF
+  heightText: 1 ft
+  weightText: .6 lbs
   sprite: {fileID: 21300000, guid: e4753f8b867e5d746a4c185a24c69c77, type: 3}
   BookSprite: {fileID: 21300000, guid: 305296fee2ac2f64fab467e8bd4616b9, type: 3}
   dexImageSprite: {fileID: 21300000, guid: d0e8ad82de5f4b54b8544e3a732d532c, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: 74c62b0faa1f9e543b26754201fb41d0, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: cd4ca866534769a46b90da391c32560d, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: cb63532b66e2b0a439b92c138cf28ca3, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

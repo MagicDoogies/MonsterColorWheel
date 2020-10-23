@@ -12,15 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
   m_Name: PastelDenim
   m_EditorClassIdentifier: 
-  color: Pastel Denim
+  color: RipTide
   type: Pastel
-  unlockText: You unlocked Denim!
-  hexText: 
-  heightText: 
-  weightText: 
+  unlockText: "It possess the ability to whip up violent micro thunderstorms and
+    uses that power to bully the other experiments, especially #A719B4. I don\u2019t
+    want to be here when it finally reaches a breaking point. I would tell it to
+    pick on someone its own size but it already does, for fun. "
+  hexText: 95A4B9
+  heightText: 1.2 ft
+  weightText: 11 lbs
   sprite: {fileID: 21300000, guid: 9ca82e4525078aa48bbd2c3bcc1ee133, type: 3}
   BookSprite: {fileID: 21300000, guid: a5f534fdfca34d445bfc71f9f48921af, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 662f9f703a6a39a4d92c8e180470bda0, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

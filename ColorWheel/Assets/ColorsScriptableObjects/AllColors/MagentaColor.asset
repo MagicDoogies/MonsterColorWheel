@@ -14,17 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Magenta
   type: Tertiary
-  unlockText: "It exudes righteous power and seething\u2026anger? It\u2019s form
-    is stable and no longer malleable so tempering it with other DNA samples is out
-    of the question. A containment area with lots of space seems ideal for such a
-    creature. Perhaps we should place it with some fellow companions to see how they
-    interact with others. "
+  unlockText: "If #CEB180 gave off red flags, this one is a realized threat. They
+    said that we should still observe this organism and learn more about it. I say
+    we should release it into the outside and let it be the antagonist of someone
+    else\u2019s life. "
   hexText: A7194B
-  heightText: 
-  weightText: 
+  heightText: 12 ft
+  weightText: 8 lbs
   sprite: {fileID: 21300000, guid: 88c73cef556664242806d483c2e64a7f, type: 3}
   BookSprite: {fileID: 21300000, guid: e0f04c1e26b3acd44a481bfc72f4661a, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 947c55022ead302429cce7af2796247e, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 1

@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Sky
   type: Pastel
-  unlockText: You unlocked pastel blue!
-  hexText: 
-  heightText: 
-  weightText: 
+  unlockText: "Harder than diamonds, light as a feather\u2026and a sensitive crybaby.
+    This runs on high emotions and is always one situation away from crying its eye
+    out. It\u2019s adorable when it does that though. "
+  hexText: A1C5FF
+  heightText: 4 inches
+  weightText: .5 lbs
   sprite: {fileID: 21300000, guid: 164a0e2f911c7a44f82f3b85dcd4cf13, type: 3}
   BookSprite: {fileID: 21300000, guid: a58e0dff12d449b4fa045a89c23a20fd, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 38f328db903c1404bbe3efab3e5fd23f, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: 582663ef307dd2c4b8618210c3d0156d, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: a58e0dff12d449b4fa045a89c23a20fd, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: 305296fee2ac2f64fab467e8bd4616b9, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

@@ -21,6 +21,12 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 2f3f389f5749d5e4096d1129af6217b8, type: 3}
   BookSprite: {fileID: 21300000, guid: cd4ca866534769a46b90da391c32560d, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 958c0ea4b96ba21459f04b38e0e6e764, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

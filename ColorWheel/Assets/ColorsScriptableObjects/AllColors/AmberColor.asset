@@ -14,15 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Amber
   type: Tertiary
-  unlockText: "It, quite literally, sizzles with energy. I feel notably happier than
-    I did prior to entering this ones confinement room. Does it perhaps have telepathic
-    abilities that promotes positive emotions? That\u2019s a pretty exciting discovery. "
+  unlockText: "It\u2019s sizzling with energy! Look, when you pick up the flakes
+    it hums with hums with energy and is warm to the touch. "
   hexText: FABC02
-  heightText: 
-  weightText: 
+  heightText: 1 ft
+  weightText: 3 lbs
   sprite: {fileID: 21300000, guid: 7b4609ec7e71a194f84c34908f2af1d5, type: 3}
   BookSprite: {fileID: 21300000, guid: f2893e154eb21e841bf9c80499870bac, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 6357a674f46c0174880771ce1fa7dc00, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 1

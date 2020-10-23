@@ -14,13 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Bubblegum
   type: Pastel
-  unlockText: You discovered bubblegum!
-  hexText: 
+  unlockText: The master of getting into sticky situations! Both literally and figuratively.
+    Its exterior is very goopy and sticks to a lot of places. The perfect traits
+    for devious organisms to pull pranks on its peers. The poor thing is in a constant
+    state of confusion.
+  hexText: F18DB0
   heightText: 
   weightText: 
   sprite: {fileID: 21300000, guid: 7d44f43178fbf374d8d21a0d910fcab2, type: 3}
   BookSprite: {fileID: 21300000, guid: cb63532b66e2b0a439b92c138cf28ca3, type: 3}
   dexImageSprite: {fileID: 21300000, guid: cdc0a9cde3d6e3044b52ac9dd14097d1, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

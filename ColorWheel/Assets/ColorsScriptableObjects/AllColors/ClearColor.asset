@@ -14,14 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Clear
   type: Null
-  unlockText: 'A breakthrough experiment created in the labs. Its genetic makeup
-    is unstable and malleable. An empty vessel waiting to contain something. '
+  unlockText: A breakthrough in our experiment! We created a version of ourselves
+    that is empty. Genetically malleable and easily altered with the right injections
+    of RNA
   hexText: ' - - - - - -'
   heightText: 1 ft
   weightText: 0 lbs
   sprite: {fileID: 21300000, guid: 0e30109e97576774f90ea0a9dd7ff802, type: 3}
   BookSprite: {fileID: 21300000, guid: f2cacc30b0b491449ab733c0cb352888, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 2c62d910ef27fb240ba969ee64e07fb5, type: 3}
+  redResult: {fileID: 21300000, guid: 790c7804429ca244a96a74b54768859c, type: 3}
+  blueResult: {fileID: 21300000, guid: 9484d04892f62a0419fc37f28b26118b, type: 3}
+  yellowResult: {fileID: 21300000, guid: 5d7a06ea53a4c0545a1fa41a3509b372, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: 1074ccde1fb220d4586ec99db575780d, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: a58e0dff12d449b4fa045a89c23a20fd, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: 9b91ce8635dbd884d9f87e2be992337b, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

@@ -14,15 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Blue
   type: Primary
-  unlockText: "Extremely calm. We almost thought it was still in Null state despite
-    its changes in pigmentation. Despite its gooey appearance it has a very sturdy
-    cellular wall. Should think about testing it\u2019s durability.   "
+  unlockText: "It has a stoic personality. No, it has a boring personality. It just
+    stares at you like it has nothing else to do. It has a gelatinous, dense exterior
+    that\u2019s extremely durable. Like a cannonball with an eyeball."
   hexText: 0060FF
-  heightText: 
-  weightText: 
+  heightText: 10 inches
+  weightText: 40 lbs
   sprite: {fileID: 21300000, guid: 681f5c09896cb44448a98f4b5331678e, type: 3}
   BookSprite: {fileID: 21300000, guid: 9484d04892f62a0419fc37f28b26118b, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 2144d5ec814daf84da0d18ed8ed8f188, type: 3}
+  redResult: {fileID: 21300000, guid: 2ed5ef850aa06be49a3d67f126926fca, type: 3}
+  blueResult: {fileID: 21300000, guid: 9484d04892f62a0419fc37f28b26118b, type: 3}
+  yellowResult: {fileID: 21300000, guid: 49bee260a195d3c40893c387a59c0c39, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 1
   isSecondary: 0
   isTertiary: 0

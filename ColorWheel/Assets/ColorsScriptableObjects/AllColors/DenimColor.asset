@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Denim
   type: Neutral
-  unlockText: You unlocked Denim
+  unlockText: "I really enjoy petting its fur(?) It\u2019s like if clouds had a solid
+    form (and I\u2019m not talking about ice.) I should put in a request to create
+    another Denim so this one can become my fluffy assistant!"
   hexText: 35465E
-  heightText: 
-  weightText: 
+  heightText: ' 3 ft'
+  weightText: 10 lbs
   sprite: {fileID: 21300000, guid: f5cdd9d9c68cd1b49b41fec4fbcee0bc, type: 3}
   BookSprite: {fileID: 21300000, guid: e5f0eb8422c8dde488883fb3e2fa906c, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 00e25e948b073784a8b8ad97f70485a2, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

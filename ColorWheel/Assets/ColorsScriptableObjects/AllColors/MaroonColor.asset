@@ -14,13 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Maroon
   type: Neutral
-  unlockText: You unlocked Maroon!
+  unlockText: "We had to put this one in a self-cleaning enclosure because the mucus
+    it excretes is viscous, slimy, and damn near impossible clean off. It\u2019s
+    a shame because it is a very friendly creature and is always curious about my
+    note-taking. "
   hexText: 800000
-  heightText: 
-  weightText: 
+  heightText: 6 ft
+  weightText: 15 lbs
   sprite: {fileID: 21300000, guid: a5916b473ab337e428fb12b1e03b3b2b, type: 3}
   BookSprite: {fileID: 21300000, guid: d1cffa475be731f4198e67683cbfc042, type: 3}
   dexImageSprite: {fileID: 21300000, guid: a4bddf7db2b974f4790d31316b6a6d4c, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

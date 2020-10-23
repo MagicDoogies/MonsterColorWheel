@@ -14,14 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Red
   type: Primary
-  unlockText: 'An organism with an endless resource of energy. It is always zipping
-    around the containment chamber showing no signs of stopping. '
+  unlockText: 
   hexText: E10000
-  heightText: 
-  weightText: 
+  heightText: 3 ft
+  weightText: 25lbs
   sprite: {fileID: 21300000, guid: e9e89d0ffda06b8419eacd4eb45ed0b7, type: 3}
   BookSprite: {fileID: 21300000, guid: 790c7804429ca244a96a74b54768859c, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 566db45aaba5ea5429e924ab5b93d4c9, type: 3}
+  redResult: {fileID: 21300000, guid: 790c7804429ca244a96a74b54768859c, type: 3}
+  blueResult: {fileID: 21300000, guid: 2ed5ef850aa06be49a3d67f126926fca, type: 3}
+  yellowResult: {fileID: 21300000, guid: 05066d9286e19644ab7d7dd7577911c6, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 1
   isSecondary: 0
   isTertiary: 0

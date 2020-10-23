@@ -14,13 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Peach
   type: Pastel
-  unlockText: You discovered peach!
-  hexText: 
-  heightText: 
-  weightText: 
+  unlockText: "It\u2019s center of gravity is always in flux. It\u2019s head? Neck?
+    Is so long that it can\u2019t do anything but move around slowly otherwise it
+    would tip over. Its efforts are in vain; someone or something is always knocking
+    it off it\u2019s balance. Poor thing. "
+  hexText: FFC975
+  heightText: 14 ft
+  weightText: 245 lbs
   sprite: {fileID: 21300000, guid: c4be2a0dc8c23654fb86a6eb7f64fa0b, type: 3}
   BookSprite: {fileID: 21300000, guid: 817b984c3c5fd2d4da6578e167ead5f7, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 2ccf9989696bd3b43813cda783074e57, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: 8ebdd38fc1ce9464ab087cf346cf746e, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: 74c62b0faa1f9e543b26754201fb41d0, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: a8de65b21fba464438d622c2ee475503, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

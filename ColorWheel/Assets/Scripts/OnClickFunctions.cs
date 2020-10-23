@@ -113,6 +113,9 @@ public class OnClickFunctions : MonoBehaviour
 
     public void ResetButton() //When this button is clicked it changes the sprite back to clear. This does NOT clear the elements list.
     {
-       
+        
+        ColorReset = true;
+        Debug.Log(ColorReset);
+        resetColor.BackToClear();
     }
 }

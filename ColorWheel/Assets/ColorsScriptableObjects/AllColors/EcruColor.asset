@@ -14,13 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Ecru
   type: Neutral
-  unlockText: You unlocked Ecru!
+  unlockText: "This one gives me gives off red flags. That\u2019s saying a lot considering
+    the other experiments we have in the lab. It has feet but it\u2019s always floating.
+    It never flaps its wings either. Creepy."
   hexText: CEB180
-  heightText: 
-  weightText: 
+  heightText: 4 ft
+  weightText: 15 lbs
   sprite: {fileID: 21300000, guid: 1324fdfcaf9ef1048a6c241aa202e704, type: 3}
   BookSprite: {fileID: 21300000, guid: 2f2c710b3b8c67e42a672c587deae2ae, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 19f921f3778891f4c82806f2d47009e6, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

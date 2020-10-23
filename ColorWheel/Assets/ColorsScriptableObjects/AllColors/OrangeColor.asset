@@ -14,16 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Orange
   type: Secondary
-  unlockText: 'This one has the hyper activity of Red while exhibiting the friendliness
-    of Yellow. I fear that it will hurt itself with its attempts at escaping the
-    confines of its tube to interact with me. I will put in a request for the higherups
-    to allow for physical contact and observation. '
+  unlockText: "It inherited #E100000 hyperactive traits. It has the ability to traverse
+    on any surface, but its large rump means it can\u2019t walk upside down. It falls
+    with a splat but jiggles back up again. I love that kind of determination."
   hexText: FF5500
-  heightText: 
-  weightText: 
+  heightText: 3 ft
+  weightText: 25 lbs
   sprite: {fileID: 21300000, guid: 83365a04a34e8b14fa9be0ecdd0f4440, type: 3}
   BookSprite: {fileID: 21300000, guid: 05066d9286e19644ab7d7dd7577911c6, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 5a19a50601ee1824da461868c6922fd9, type: 3}
+  redResult: {fileID: 21300000, guid: 423a168d70143db4d9d47fee3afeba15, type: 3}
+  blueResult: {fileID: 21300000, guid: cfc8e04c39bbad242b53f739e8c4071e, type: 3}
+  yellowResult: {fileID: 21300000, guid: f2893e154eb21e841bf9c80499870bac, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 1
   isTertiary: 0

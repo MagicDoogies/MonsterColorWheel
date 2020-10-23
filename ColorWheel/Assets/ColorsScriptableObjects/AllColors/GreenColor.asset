@@ -14,16 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Green
   type: Secondary
-  unlockText: "What an interesting organism. Its attentiveness could be mistaken
-    for caution if you don\u2019t know where to look. Upon closer inspection of its
-    cells they seem to replicate at a much higher rate and exhibit self-healing abilities.
-    Hmm\u2026did someone swap out it\u2019s containment tube for a smaller model?"
+  unlockText: ' It only has one thought- ramming its head into any object to see
+    if it breaks. I want to see it interact with #4F2E14. One will keep getting back
+    up. The other will keep bonking. Hilarious!'
   hexText: 00AF29
-  heightText: 
-  weightText: 
+  heightText: 5 ft
+  weightText: 60 lbs
   sprite: {fileID: 21300000, guid: 96f44018228a6e44dad7e3351dabc912, type: 3}
   BookSprite: {fileID: 21300000, guid: 49bee260a195d3c40893c387a59c0c39, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 1d7d4a2f6228bd34280d81f3791cfe92, type: 3}
+  redResult: {fileID: 21300000, guid: cfc8e04c39bbad242b53f739e8c4071e, type: 3}
+  blueResult: {fileID: 21300000, guid: cb8be20af88b51d4aa45893fa5dd3463, type: 3}
+  yellowResult: {fileID: 21300000, guid: 34aded83c1e0101409d671a49d2f9a86, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   isPrimary: 0
   isSecondary: 1
   isTertiary: 0

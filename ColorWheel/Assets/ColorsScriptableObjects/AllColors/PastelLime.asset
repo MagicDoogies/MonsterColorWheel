@@ -12,15 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
   m_Name: PastelLime
   m_EditorClassIdentifier: 
-  color: Chartreuse
+  color: Lime
   type: pastel
-  unlockText: You discovered chartreuse!
-  hexText: 
-  heightText: 
-  weightText: 
+  unlockText: "Don\u2019t put any objects or persons of value near this one. If it
+    can fit in its mouth it\u2019s fair game. It won\u2019t give back it\u2019s ill
+    gotten goods unless you do something for it in return. "
+  hexText: F1FDA5
+  heightText: 9 ft
+  weightText: 145 lbs
   sprite: {fileID: 21300000, guid: f6b53952d5342d14d991ab75eb861403, type: 3}
   BookSprite: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 06c6a3dbd44c1d6428a75b8f60e16f04, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0

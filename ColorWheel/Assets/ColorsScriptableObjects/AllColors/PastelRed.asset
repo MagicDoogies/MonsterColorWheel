@@ -14,13 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 'Blush '
   type: Pastel
-  unlockText: You discovered blush!
-  hexText: 
-  heightText: 
-  weightText: 
+  unlockText: "Unlike its hyperactive counterpart, this one prefers to take things
+    slow. It has a very stretchy membrane and if you pull on it really hard and let
+    go, it bounces around the enclosure like a rubber ball. What\u2019s that look
+    for? It doesn\u2019t mind at all.  "
+  hexText: FFA4A4
+  heightText: 2 ft
+  weightText: 2 lbs
   sprite: {fileID: 21300000, guid: ae555501bcac8234ea5db8621762108f, type: 3}
   BookSprite: {fileID: 21300000, guid: 9b91ce8635dbd884d9f87e2be992337b, type: 3}
   dexImageSprite: {fileID: 21300000, guid: d1c641bbc0907d540a1d3de27c23c21a, type: 3}
+  redResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  blueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  yellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
+  pastelYellowResult: {fileID: 21300000, guid: 817b984c3c5fd2d4da6578e167ead5f7, type: 3}
+  pastelBlueResult: {fileID: 21300000, guid: 305296fee2ac2f64fab467e8bd4616b9, type: 3}
+  pastelRedResult: {fileID: 21300000, guid: 9b91ce8635dbd884d9f87e2be992337b, type: 3}
   isPrimary: 0
   isSecondary: 0
   isTertiary: 0
@@ -28,6 +37,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}
-  pastelBlueUnlocked: {fileID: 11400000, guid: 1b498f925f4b62e4b86fbded5844e9b8, type: 2}
+  pastelBlueUnlocked: {fileID: 11400000, guid: 9bed10b3e6002e84b95d3ab932c70bff, type: 2}
   pastelRedUnlocked: {fileID: 0}
   pastelYellowunlocked: {fileID: 11400000, guid: 4035fa3918d1cd54495fb144af8896cf, type: 2}

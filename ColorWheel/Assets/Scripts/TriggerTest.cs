@@ -26,6 +26,16 @@ public class TriggerTest : MonoBehaviour
     {
 
     }
+    public void BackToClear()//When the reset button is clicked in the ButtonFunctions script, it sets the color back to clear WITHOUT clearing the elements list.
+    {
+        if (resetColors.ColorReset == true)
+        {
+
+            SetColor(initialColor);
+            resetColors.ColorReset = false;
+          
+        }
+    }
 
     public void SetColor(Colors newColor)// function to create new colors in the game.
     {
@@ -38,13 +48,7 @@ public class TriggerTest : MonoBehaviour
         currentColor = newColor;// Sets the new current color.
         resultBox.MonsterChange(newColor);
         print("I am the new color " + currentColor);
-        if ( resetColors.ColorReset == true)
-        {
-            currentColor = initialColor;
-            currentColor = newColor;
-            resultBox.MonsterChange(newColor);
-            resetColors.ColorReset = false;
-        }
+        
     }
 
     public void OnTriggerEnter2D(Collider2D collision)// if player uses a needle with X tag on Y color it turns into Z. In other words, this controls the color mixing function. 
@@ -94,9 +98,6 @@ public class TriggerTest : MonoBehaviour
         
     }
 
-    public void BackToClear()//When the reset button is clicked in the ButtonFunctions script, it sets the color back to clear WITHOUT clearing the elements list.
-    {
-        
-    }
+  
 
 }
