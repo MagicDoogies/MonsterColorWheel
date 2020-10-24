@@ -18,7 +18,7 @@ MonoBehaviour:
     This runs on high emotions and is always one situation away from crying its eye
     out. It\u2019s adorable when it does that though. "
   hexText: A1C5FF
-  heightText: 4 inches
+  heightText: 4 in
   weightText: .5 lbs
   sprite: {fileID: 21300000, guid: 164a0e2f911c7a44f82f3b85dcd4cf13, type: 3}
   BookSprite: {fileID: 21300000, guid: a58e0dff12d449b4fa045a89c23a20fd, type: 3}

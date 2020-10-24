@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Brown
   type: Neutral
-  unlockText: ": I don\u2019t think it can actually see anything. That\u2019s the
-    only hypothesis I can come up with to explain why it constantly bumps into obstacles.
+  unlockText: "I don\u2019t think it can actually see anything. That\u2019s the only
+    hypothesis I can come up with to explain why it constantly bumps into obstacles.
     I\u2019ve lost so many beakers to it\u2019s clumsy navigation. "
   hexText: 4F2E14
-  heightText: 
-  weightText: 
+  heightText: 4.2 ft
+  weightText: 60 lbs
   sprite: {fileID: 21300000, guid: f08856f642a9ab441bb5ef881d1e225a, type: 3}
   BookSprite: {fileID: 21300000, guid: cfc8e04c39bbad242b53f739e8c4071e, type: 3}
   dexImageSprite: {fileID: 21300000, guid: b0b956562bc96b84aa005bf81606788d, type: 3}

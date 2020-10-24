@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Purple
   type: Secondary
-  unlockText: ": Exhibits personality traits that one would describe as \u2018uppity\u2019.
-    While we detect no hostility from the organism, they seem to think we are nothing
-    more than servants. I\u2019m positive that if it were ever to be let out, it
-    would have the power to enforce it\u2019s imposed hierarchy. "
+  unlockText: "Vain, jealous, snooty, spiteful, petty\u2026ugh, never have I met
+    such a high maintenance experiment in my life! Nobody seems to live up to whatever
+    standards it seemingly demands of everyone that interacts with it. Every one
+    of it\u2019s peers gives it space, and it seems to like it that way. "
   hexText: 7E00FF
-  heightText: 
-  weightText: 
+  heightText: 7 ft
+  weightText: 15 lbs
   sprite: {fileID: 21300000, guid: 155606f6d30d4854f849696174c2cadf, type: 3}
   BookSprite: {fileID: 21300000, guid: 2ed5ef850aa06be49a3d67f126926fca, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 98f2dc87ca107fa40badc3c900da4125, type: 3}

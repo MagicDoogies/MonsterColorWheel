@@ -19,7 +19,7 @@ MonoBehaviour:
     of RNA
   hexText: ' - - - - - -'
   heightText: 1 ft
-  weightText: 0 lbs
+  weightText: ----
   sprite: {fileID: 21300000, guid: 0e30109e97576774f90ea0a9dd7ff802, type: 3}
   BookSprite: {fileID: 21300000, guid: f2cacc30b0b491449ab733c0cb352888, type: 3}
   dexImageSprite: {fileID: 21300000, guid: 2c62d910ef27fb240ba969ee64e07fb5, type: 3}

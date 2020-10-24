@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Yellow
   type: Primary
-  unlockText: 'Very attentive to its surroundings. It seems interested in us. Almost
-    like it wants to play. An experiment for another day. We do not know how safe
-    it is to have physical contact with these organisms. '
+  unlockText: "At a glance there doesn\u2019t seem to be anything special about this
+    one. But a look under the micro scope shows that it has rapid regenerative abilities!
+    A very good trait to have seeing as its body is fragile compared to its peers.
+    It\u2019s not brittle mind you- but it has all the durability of a sentient jelly. "
   hexText: FFE400
-  heightText: 
-  weightText: 
+  heightText: 6 in
+  weightText: 5 lbs
   sprite: {fileID: 21300000, guid: bf11576371c3c674792663dd27d8c725, type: 3}
   BookSprite: {fileID: 21300000, guid: 5d7a06ea53a4c0545a1fa41a3509b372, type: 3}
   dexImageSprite: {fileID: 21300000, guid: f88bc0401e8c2734288838ec27a0c97a, type: 3}

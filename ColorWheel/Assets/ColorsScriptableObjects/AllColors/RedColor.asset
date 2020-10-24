@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Red
   type: Primary
-  unlockText: 
+  unlockText: "I believe it is biologically incapable of standing still. It is constantly
+    moving; zipping around the parameters of its container like its life depended
+    on it. I\u2019m serious when I say not once has it ever moved slower than 75mph.
+    We should find ways to utilize this energy. "
   hexText: E10000
-  heightText: 3 ft
+  heightText: 6 in
   weightText: 25lbs
   sprite: {fileID: 21300000, guid: e9e89d0ffda06b8419eacd4eb45ed0b7, type: 3}
   BookSprite: {fileID: 21300000, guid: 790c7804429ca244a96a74b54768859c, type: 3}

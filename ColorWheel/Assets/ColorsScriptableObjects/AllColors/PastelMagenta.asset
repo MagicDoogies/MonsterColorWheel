@@ -19,8 +19,8 @@ MonoBehaviour:
     for devious organisms to pull pranks on its peers. The poor thing is in a constant
     state of confusion.
   hexText: F18DB0
-  heightText: 
-  weightText: 
+  heightText: 5 ft
+  weightText: 16 lbs
   sprite: {fileID: 21300000, guid: 7d44f43178fbf374d8d21a0d910fcab2, type: 3}
   BookSprite: {fileID: 21300000, guid: cb63532b66e2b0a439b92c138cf28ca3, type: 3}
   dexImageSprite: {fileID: 21300000, guid: cdc0a9cde3d6e3044b52ac9dd14097d1, type: 3}

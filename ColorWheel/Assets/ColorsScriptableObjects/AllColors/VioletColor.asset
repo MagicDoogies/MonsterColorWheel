@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Violet
   type: Tertiary
-  unlockText: 'By far the most stable organism in our labs. They are the epitome
-    of patience, observance and prestige. Sometimes I wonder if they are examining
-    us just as much as we are examining them. Maybe they would make for a great worker
-    in these labs. I would have to test to see if they have the cognitive intelligence
-    for such an occupation. '
+  unlockText: "Sometimes I wonder if they are examining us just as much as we are
+    to them. It possesses a brutish appearance and looks as if it wants to pick a
+    fight, but that\u2019s clearly not the case if its behavior is anything to go
+    by. They would make an excellent addition to our team. I\u2019ll put in a request
+    to the higher ups."
   hexText: 3D01A4
-  heightText: 
-  weightText: 
+  heightText: 4.5 ft
+  weightText: 100 lbs
   sprite: {fileID: 21300000, guid: 85d69cb14c6809948819762e964a0c4f, type: 3}
   BookSprite: {fileID: 21300000, guid: 887496151cbdc5843ab558c722075822, type: 3}
   dexImageSprite: {fileID: 21300000, guid: d4ce5bd6c130ff344bff62e2b21e7bf9, type: 3}
