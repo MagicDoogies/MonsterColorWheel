@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
   m_Name: PastelMaroon
   m_EditorClassIdentifier: 
-  color: Pastel Maroon
+  color: Brick
   type: Pastel
   unlockText: "It definitely possess telekinetic powers. When I\u2019m around it
     I feel a sense of weightlessness and a voice in my head keeps asking me to\u2026make

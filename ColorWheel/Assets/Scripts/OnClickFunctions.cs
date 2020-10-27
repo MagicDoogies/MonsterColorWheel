@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class OnClickFunctions : MonoBehaviour
 {
@@ -14,12 +16,28 @@ public class OnClickFunctions : MonoBehaviour
     public LogBook logbookScript;
 
     public ColorContainer unlockedColors;
+    //These declarations are for resetting the logbook info back to null when the player hits the start button.
+    public GameObject defaultHexText;
+    public GameObject defaultWeightText;
+    public GameObject defaulttHeightText;
+    public GameObject defaultDescriptionText;
+    public GameObject defaultTypeText;
+    public GameObject defaultColorNameText;
+    
+
+    public GameObject dexImage;
+    public Image currentDexImage;
+    public Image defaultDexImage;
+    //End of logbook description gameobject references.
+
+
     public TriggerTest resetColor;
     public bool ColorReset = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        currentDexImage = dexImage.GetComponent<Image>();
         
     }
 
@@ -44,17 +62,25 @@ public class OnClickFunctions : MonoBehaviour
     public void StartButton()
     {
         //this space will activate the main game UI and deactivate all the others.
-        print("Starting the game now");
+        
         
         SubMenu.SetActive(true);
         MainMenuScreen.SetActive(false);
         unlockedColors.elements.Clear();// Clears the list when the player hits the start button. 
+        currentDexImage.sprite = defaultDexImage.sprite;
+        Debug.Log(currentDexImage.sprite);//The line and the entire section below establishes a default state for the description box when nothing has been selected or when the player restarts the game.
+        defaultHexText.GetComponent<TMP_Text>().text = "---";
+        defaulttHeightText.GetComponent<TMP_Text>().text = "---";
+        defaultWeightText.GetComponent<TMP_Text>().text = "---";
+        defaultTypeText.GetComponent<TMP_Text>().text = "---";
+        defaultDescriptionText.GetComponent<TMP_Text>().text = "---";
+        defaultColorNameText.GetComponent<TMP_Text>().text = "---";
 
     }
 
     public void GameReturnButton()//Returns the player to the main game screen. 
     {
-        print("Going back to menu screen");
+      
         SubMenu.SetActive(false);
         MainMenuScreen.SetActive(true);
 

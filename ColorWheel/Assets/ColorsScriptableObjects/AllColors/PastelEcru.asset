@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
   m_Name: PastelEcru
   m_EditorClassIdentifier: 
-  color: Pastel Ecru
+  color: Cream
   type: Pastel
   unlockText: 'This one is capable of speech! And boy does it have a lot (of nothing)
     to say. All attempts at trying to engage in meaningful conversation was fruitless.
