@@ -35,7 +35,7 @@ public class ResultsBox : MonoBehaviour
         color2.text = resultColor.color;
 
     }
-    public void NeedleClicked(GameObject needleTag)
+    public void NeedleClicked(UnityEngine.GameObject needleTag)
     {
         
         needleColor.text = needleTag.tag;

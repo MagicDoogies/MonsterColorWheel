@@ -24,23 +24,21 @@ using UnityEngine.EventSystems;
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("OnDrag");
+       
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;//First the script takes position of the cursor and ties the image position based on that. Next it divides the scale of the canvas so the image is correctly centered.
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
-        
+      
     }
     
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
-     
+
     }
   public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("OnPointerDown");
+       
         needleResult.NeedleClicked(this.gameObject);//Transfers information of the clicked needle to the NeedleClicked function inside 'ResultBox' script.
      
     }
@@ -49,6 +47,5 @@ using UnityEngine.EventSystems;
     {
         this.transform.position = originalPos;
        
-
     }
 }

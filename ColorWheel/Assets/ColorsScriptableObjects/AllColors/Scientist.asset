@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
+  m_Name: Scientist
+  m_EditorClassIdentifier: 
+  color: Scientist
+  type: ---
+  unlockText: blah blah blah. All I say is nerdy shit.
+  hexText: ---
+  heightText: 3 ft
+  weightText: 3 lbs
+  sprite: {fileID: 21300000, guid: 137cdb2a535667047a04cbd51c5fc2da, type: 3}
+  BookSprite: {fileID: 21300000, guid: 2989c0b4d9f969e4ab7e8c9e84d33888, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: 137cdb2a535667047a04cbd51c5fc2da, type: 3}
+  redResult: {fileID: 0}
+  blueResult: {fileID: 0}
+  yellowResult: {fileID: 0}
+  pastelYellowResult: {fileID: 0}
+  pastelBlueResult: {fileID: 0}
+  pastelRedResult: {fileID: 0}
+  isPrimary: 0
+  isSecondary: 0
+  isTertiary: 0
+  isPastel: 0
+  redNeedleUnlock: {fileID: 0}
+  yellowNeedleUnlock: {fileID: 0}
+  blueNeedleUnlocked: {fileID: 0}
+  pastelBlueUnlocked: {fileID: 0}
+  pastelRedUnlocked: {fileID: 0}
+  pastelYellowunlocked: {fileID: 0}

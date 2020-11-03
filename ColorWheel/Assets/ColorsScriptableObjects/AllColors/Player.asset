@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  color: (You)
+  type: Origin
+  unlockText: Thanks for the help pal.
+  hexText: FFFFFF
+  heightText: 6 ft
+  weightText: 100 lbs
+  sprite: {fileID: 21300000, guid: c777cf0c823bfde41b1fc317d75f60c9, type: 3}
+  BookSprite: {fileID: 21300000, guid: 3c8508e7db618de408088166fa9fb4c5, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: 98f2dc87ca107fa40badc3c900da4125, type: 3}
+  redResult: {fileID: 0}
+  blueResult: {fileID: 0}
+  yellowResult: {fileID: 0}
+  pastelYellowResult: {fileID: 0}
+  pastelBlueResult: {fileID: 0}
+  pastelRedResult: {fileID: 0}
+  isPrimary: 0
+  isSecondary: 0
+  isTertiary: 0
+  isPastel: 0
+  redNeedleUnlock: {fileID: 0}
+  yellowNeedleUnlock: {fileID: 0}
+  blueNeedleUnlocked: {fileID: 0}
+  pastelBlueUnlocked: {fileID: 0}
+  pastelRedUnlocked: {fileID: 0}
+  pastelYellowunlocked: {fileID: 0}

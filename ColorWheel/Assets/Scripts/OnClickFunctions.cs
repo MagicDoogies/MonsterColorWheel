@@ -118,7 +118,7 @@ public class OnClickFunctions : MonoBehaviour
 
     public void PageForward()
     {
-        if (logbookScript.pageNumber <= 4)
+        if (logbookScript.pageNumber <= 3)
         {
             logbookScript.pageNumber++;
             logbookScript.ClearLogbookPage();

@@ -39,8 +39,8 @@ public class LogBook : MonoBehaviour
     {
         foreach (Transform child in transform)//if any slots already exist in the logbook, delete it.
         {
-            Debug.Log(child.name);
-            /*  child.name += "I'm going away now";*/
+            Debug.Log("I'm going away now" + child.name);
+            
             Destroy(child.gameObject);
         }
     }
@@ -59,6 +59,7 @@ public class LogBook : MonoBehaviour
             {
                 var slot = Instantiate(slotprefab, transform);//creates a new instance of a logbook slot as a reference in the variable.
                 slot.colorTemplate = displayColors.elements[dexNumber];//getting the slot just creating and setting it to the current color on the list.
+                
             }
         }
     }

@@ -17,7 +17,7 @@ MonoBehaviour:
   unlockText: A breakthrough in our experiment! We created a version of ourselves
     that is empty. Genetically malleable and easily altered with the right injections
     of RNA
-  hexText: ' - - - - - -'
+  hexText: '- - - - '
   heightText: 1 ft
   weightText: ----
   sprite: {fileID: 21300000, guid: 0e30109e97576774f90ea0a9dd7ff802, type: 3}

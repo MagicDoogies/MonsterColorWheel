@@ -24,7 +24,7 @@ public class MonsterCounter : MonoBehaviour
 
     public void UnlockedColorsCounter()
     {
-        currentCount = currentlyUnlockedColors.elements.Count;//Sets the variable count to 
+        currentCount = currentlyUnlockedColors.elements.Count;//Sets the variable count to however many elements are in 'UnlockedColors' scriptable object.
         unlockedTracker.SetText(currentCount.ToString());//translates the current number of elements in unlocked colors to the tracker in Logbook screen. 
 
     }

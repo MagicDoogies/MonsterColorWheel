@@ -15,6 +15,8 @@ public class TriggerTest : MonoBehaviour
     public Colors initialColor; // The first color that the player gets when they start the game. 
     public ResultsBox resultBox;
     public OnClickFunctions resetColors;
+
+    public DialogueManager dialogueManager;
     void OnEnable()
     {
         
