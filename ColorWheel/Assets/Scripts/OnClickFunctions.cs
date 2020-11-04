@@ -116,21 +116,23 @@ public class OnClickFunctions : MonoBehaviour
         Application.Quit();
     }
 
-    public void PageForward()
+    public void PageForward()// Turns the next page.
     {
-        if (logbookScript.pageNumber <= 3)
+        if (logbookScript.pageNumber <= 2)
         {
             logbookScript.pageNumber++;
+            Debug.Log("The page number is " + logbookScript.pageNumber);
             logbookScript.ClearLogbookPage();
             logbookScript.FillLogbookPageBasedOnPageNumber();
         }
     }
-    public void PageBackward()
+    public void PageBackward()//Go backward
     {
         //if pagenum is not zero
         //decrease pagenum by one
         if (logbookScript.pageNumber > 0)
         {
+            logbookScript.pageForwardButton.interactable = true;
             logbookScript.pageNumber--;
             logbookScript.ClearLogbookPage();
             logbookScript.FillLogbookPageBasedOnPageNumber();

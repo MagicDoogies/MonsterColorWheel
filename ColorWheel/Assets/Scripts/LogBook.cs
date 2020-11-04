@@ -10,6 +10,7 @@ public class LogBook : MonoBehaviour
     public LogBookSlot slotprefab;
     public ColorContainer displayColors;
     public static LogBook logBook;
+    public Button pageForwardButton;
     // Start is called before the first frame update
     public TMP_Text colorDescription;
     public TMP_Text nameText;
@@ -24,6 +25,7 @@ public class LogBook : MonoBehaviour
 
     [HideInInspector] public int maxSlots = 9;// Set the maximum number of slots that show up on a single page. Public to other scripts. Private on the inspector.  
     public int pageNumber = 0;
+    
 
     public void Awake()
     {
@@ -31,6 +33,7 @@ public class LogBook : MonoBehaviour
     }
     void OnEnable()
     {
+        
         ClearLogbookPage();
         FillLogbookPageBasedOnPageNumber();
     }
@@ -39,7 +42,7 @@ public class LogBook : MonoBehaviour
     {
         foreach (Transform child in transform)//if any slots already exist in the logbook, delete it.
         {
-            Debug.Log("I'm going away now" + child.name);
+         
             
             Destroy(child.gameObject);
         }
@@ -47,21 +50,31 @@ public class LogBook : MonoBehaviour
 
     public void FillLogbookPageBasedOnPageNumber()
     {
-        for (int i = 0; i < maxSlots; i++)// This loops runs from zero to the number of max slots. 
-        {
-            Debug.Log("The loop index is: " + i);
-            int dexNumber = i + maxSlots * pageNumber; // Checks to see it's position in the current pages 1-9
-
-            if (dexNumber > displayColors.elements.Count - 1) break; //If the last entry of the logbook is reached, stop counting. 
-
-            Debug.Log("The dex number is: " + dexNumber);
-            if (displayColors.elements[dexNumber] != null)// 
+            for (int i = 0; i < maxSlots; i++)// This loops runs from zero to the number of max slots. 
             {
-                var slot = Instantiate(slotprefab, transform);//creates a new instance of a logbook slot as a reference in the variable.
-                slot.colorTemplate = displayColors.elements[dexNumber];//getting the slot just creating and setting it to the current color on the list.
+               
+                int dexNumber = i + maxSlots * pageNumber; // Checks to see it's position in the current pages 1-9
+
                 
+
+                if (dexNumber > displayColors.elements.Count - 1)  //If the last entry of the logbook is reached, stop counting. 
+                    {
+                        pageForwardButton.interactable = false;
+                                                break;
+
+                    }
+                
+              
+                if (displayColors.elements[dexNumber] != null)// 
+                {
+                    var slot = Instantiate(slotprefab, transform);//creates a new instance of a logbook slot as a reference in the variable.
+                    slot.colorTemplate = displayColors.elements[dexNumber];//getting the slot just creating and setting it to the current color on the list.
+
+                }
             }
-        }
+
+        
+
     }
 
 

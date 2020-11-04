@@ -20,7 +20,7 @@ MonoBehaviour:
   weightText: 100 lbs
   sprite: {fileID: 21300000, guid: c777cf0c823bfde41b1fc317d75f60c9, type: 3}
   BookSprite: {fileID: 21300000, guid: 3c8508e7db618de408088166fa9fb4c5, type: 3}
-  dexImageSprite: {fileID: 21300000, guid: 98f2dc87ca107fa40badc3c900da4125, type: 3}
+  dexImageSprite: {fileID: 21300000, guid: c777cf0c823bfde41b1fc317d75f60c9, type: 3}
   redResult: {fileID: 0}
   blueResult: {fileID: 0}
   yellowResult: {fileID: 0}

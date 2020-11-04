@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public DialogueTrigger dialogueTrigger;
+    public GameObject bonusColorsUnlocked;
 
     public bool gameFinished = false;
 
@@ -20,7 +21,7 @@ public class DialogueManager : MonoBehaviour
 
 
     public Animator animator;//References the animtor component located on the textbox dialogue.
-
+    public Animator animatorLogbook;
     public void Start()
     {
         sentences = new Queue<string>();//Initilializes the queue. 
@@ -28,7 +29,11 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        
+        if (dialogueTrigger.currentCount == 36)
+        {
+
+
+        }
         animator.SetBool("IsOpen", true);//When the dialogue starts set the 'IsOpen' bool to true
         
         nameText.text = dialogue.name;
@@ -99,13 +104,10 @@ public class DialogueManager : MonoBehaviour
        if(dialogueTrigger.currentCount == 33)
         {
             animator.SetBool("IsOpen", false);
+            bonusColorsUnlocked.SetActive(true);
             gameFinished = true;
 
         }
-       /* else
-        {
-            animator.SetBool("IsOpen", false);
-        }
-      */
+      
     }
 }
