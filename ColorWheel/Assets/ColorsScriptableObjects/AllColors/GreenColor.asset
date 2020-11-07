@@ -36,6 +36,6 @@ MonoBehaviour:
   redNeedleUnlock: {fileID: 11400000, guid: 4cab7528d7cb54f4e8b2eaaba26328dd, type: 2}
   yellowNeedleUnlock: {fileID: 11400000, guid: 2bffa50b0f6acb847aabdbd55c7378aa, type: 2}
   blueNeedleUnlocked: {fileID: 11400000, guid: 9997ad2d6c758b54ead92fe507f14414, type: 2}
-  pastelBlueUnlocked: {fileID: 0}
-  pastelRedUnlocked: {fileID: 0}
-  pastelYellowunlocked: {fileID: 0}
+  pastelBlueUnlocked: {fileID: 11400000}
+  pastelRedUnlocked: {fileID: 11400000}
+  pastelYellowunlocked: {fileID: 11400000}

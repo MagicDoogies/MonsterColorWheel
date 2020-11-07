@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Clear
   type: Null
-  unlockText: A breakthrough in our experiment! We created a version of ourselves
-    that is empty. Genetically malleable and easily altered with the right injections
-    of RNA
+  unlockText: An empty vessel waiting to be molded into something new. It doesn't
+    seem to react or be affected by any outside stimulus. But scans have shown that
+    it is definitely 'alive'. I wonder what it's dreaming about?
   hexText: '- - - - '
   heightText: 1 ft
   weightText: ----

@@ -42,64 +42,69 @@ public class TriggerTest : MonoBehaviour
     public void SetColor(Colors newColor)// function to create new colors in the game.
     {
         gameObject.GetComponent<Image>().sprite = newColor.sprite;//Setting the current sprite to be the current sprite. 
-        print(" You unlocked a new color." + newColor.color);// lets me know what color I currenlty added to the unlocked scriptable item list.
+       
         if (!unlockedColors.elements.Contains(newColor))//Checking if the color is already in the list
         {
             unlockedColors.elements.Add(newColor);//Adds the new color to the unlocked colors scriptable object. (to do: Do not allow duplicates.)
         }
         currentColor = newColor;// Sets the new current color.
         resultBox.MonsterChange(newColor);
-        print("I am the new color " + currentColor);
+        
         
     }
 
     public void OnTriggerEnter2D(Collider2D collision)// if player uses a needle with X tag on Y color it turns into Z. In other words, this controls the color mixing function. 
     {
-        print("You activated me");
+       
 
        if(collision.gameObject.tag == "Yellow")//if the object interacting with blue creature is a yellow needle.
         {
 
-
             SetColor(currentColor.yellowNeedleUnlock);//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
-
+            
         }
+   
 
         if (collision.gameObject.tag == "Red")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
             SetColor(currentColor.redNeedleUnlock);
-           
+            
         }
+  
+
         if (collision.gameObject.tag == "Blue")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
             SetColor(currentColor.blueNeedleUnlocked);
-
+           
         }
+
+
         if (collision.gameObject.tag == "PastelBlue")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
             SetColor(currentColor.pastelBlueUnlocked);
-
+           
         }
+  
+
         if (collision.gameObject.tag == "PastelYellow")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
             SetColor(currentColor.pastelYellowunlocked);
-
+            
         }
+    
+
         if (collision.gameObject.tag == "PastelRed")//Retrives the info in yellowNeedleunlock in X color and sets it as the new color in the game.
         {
 
             SetColor(currentColor.pastelRedUnlocked);
 
         }
-        
-
+    
         
     }
-
-  
 
 }

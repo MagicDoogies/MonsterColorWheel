@@ -118,7 +118,7 @@ public class OnClickFunctions : MonoBehaviour
 
     public void PageForward()// Turns the next page.
     {
-        if (logbookScript.pageNumber <= 2)
+        if (logbookScript.pageNumber < (logbookScript.displayColors.elements.Count - 1)/9)
         {
             logbookScript.pageNumber++;
             Debug.Log("The page number is " + logbookScript.pageNumber);
@@ -132,7 +132,7 @@ public class OnClickFunctions : MonoBehaviour
         //decrease pagenum by one
         if (logbookScript.pageNumber > 0)
         {
-            logbookScript.pageForwardButton.interactable = true;
+           
             logbookScript.pageNumber--;
             logbookScript.ClearLogbookPage();
             logbookScript.FillLogbookPageBasedOnPageNumber();

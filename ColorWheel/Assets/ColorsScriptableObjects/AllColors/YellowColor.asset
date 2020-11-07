@@ -35,8 +35,8 @@ MonoBehaviour:
   isTertiary: 0
   isPastel: 0
   redNeedleUnlock: {fileID: 11400000, guid: 931f805b1b821de41b3585d55902795e, type: 2}
-  yellowNeedleUnlock: {fileID: 0}
+  yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000, guid: 58c871984ffb85f458099d44b6b84762, type: 2}
-  pastelBlueUnlocked: {fileID: 0}
-  pastelRedUnlocked: {fileID: 0}
-  pastelYellowunlocked: {fileID: 0}
+  pastelBlueUnlocked: {fileID: 11400000}
+  pastelRedUnlocked: {fileID: 11400000}
+  pastelYellowunlocked: {fileID: 11400000}

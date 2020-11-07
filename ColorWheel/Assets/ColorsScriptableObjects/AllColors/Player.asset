@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e44d5fc40b0b542840738205842715, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  color: (You)
+  color: (You)Player
   type: Origin
-  unlockText: Thanks for the help pal.
+  unlockText: Created #### years ago, you are the representation of all genetic colors
+    combined. Your DNA is both extremely stable and genetically diverse. We only
+    recently figured out how to isolate your individual chromosomes and we can't
+    wait to see what we can create with these samples.
   hexText: FFFFFF
   heightText: 6 ft
   weightText: 100 lbs

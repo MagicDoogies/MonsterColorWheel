@@ -55,17 +55,16 @@ public class LogBook : MonoBehaviour
                
                 int dexNumber = i + maxSlots * pageNumber; // Checks to see it's position in the current pages 1-9
 
-                
+                if ( displayColors.elements.Count < dexNumber)
+            {
+               /* pageForwardButton.interactable = false;
+                Debug.Log(pageForwardButton.interactable);*/
+            }
 
-                if (dexNumber > displayColors.elements.Count - 1)  //If the last entry of the logbook is reached, stop counting. 
-                    {
-                        pageForwardButton.interactable = false;
-                                                break;
+                if (dexNumber > displayColors.elements.Count - 1) break; //If the last entry of the logbook is reached, stop counting. 
+                   /* pageForwardButton.interactable = true;*/
 
-                    }
-                
-              
-                if (displayColors.elements[dexNumber] != null)// 
+            if (displayColors.elements[dexNumber] != null)// 
                 {
                     var slot = Instantiate(slotprefab, transform);//creates a new instance of a logbook slot as a reference in the variable.
                     slot.colorTemplate = displayColors.elements[dexNumber];//getting the slot just creating and setting it to the current color on the list.
@@ -73,11 +72,9 @@ public class LogBook : MonoBehaviour
                 }
             }
 
-        
-
     }
 
-
+    //Displays all the information in the dex page.
     public void DisplayDescrption(string description)//displays 'unlock text' text in the description box.
     {
         descriptionPanel.SetActive(true);

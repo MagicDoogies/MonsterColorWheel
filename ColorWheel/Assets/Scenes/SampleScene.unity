@@ -1234,7 +1234,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 420238289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 75922979}
+        m_TargetAssemblyTypeName: OnClickFunctions, Assembly-CSharp
+        m_MethodName: ExitTheGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &420238289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2118,31 +2130,33 @@ MonoBehaviour:
   dialogue:
     name: Scientist
     sentences:
-    - Oh, you're here. I appreciate your co-operation with this experiment. We are
-      very excited to see what comes out of it.
-    - 'This individual here is named ''Null''. We want to see how its'' DNA reacts
-      when injected with different genetic samples. '
-    - 'They are placed to the left of you inside color marked syringes. Drag them
-      over to ''Null'' to start the experiments. I will be taking notes. '
+    - 'There you are! With the samples you provided, we were finally able to create
+      a new organism. '
+    - 'Meet ''Null''. Their genetic make up is volatile and malleable. Our current
+      job is to see just how far we can push that. '
+    - 'To your left is three color marked syringes containing different DNA samples.
+      Drag them over to Null to begin the experiments. '
+    - 'I will be recording all observable data in my logbook. '
   allPrimariesUnlocked:
     name: Scientist
     sentences:
-    - We have exhausted all possible outcomes with this batch. Luckily 'The Higher
-      Ups' have created a new batch of genetic samples to tryout.
-    - '''The Higher Ups'' also noted that whatever comes from this set is incompatible
-      with the previous batch. Do keep that in mind.'
+    - Stop
+    - We have exhausted all possible outcomes with these samples. The 'Higher Ups'
+      have given us a new batch to experiment with.
+    - To begin the experiments hit the 'Reset' button at the bottom left of the screen.
   allColorsUnlocked:
     name: Scientist
     sentences:
-    - 'Hmmm...all possible lifeforms that could result from this batch have been
-      discovered. For now, I declare this experiment over. '
-    - 'Such an overwhelming success! We have so many new experiments to call our 
-      peers. If you haven''t already be sure to check the logbook. '
+    - 'This experiment is over! Huge success I would say. Such wonderful creatures,
+      I can''t wait to know them as fellow peers. '
     - 'I''ve taken great pains to organize everything I''ve observed into a neat
       and orderly fashion. '
   finalDialogue:
-    name: 
-    sentences: []
+    name: Scientist
+    sentences:
+    - 
+    - 
+    - 
   unlockedColors: {fileID: 11400000, guid: 45e0a1ff50245fa44a6b7ba8bb8eb589, type: 2}
   logBook: {fileID: 841695418}
   gameScreen: {fileID: 516839251}
@@ -3326,7 +3340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &841695419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4280,7 +4294,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1219191602}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 75922979}
+        m_TargetAssemblyTypeName: OnClickFunctions, Assembly-CSharp
+        m_MethodName: ExitTheGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1219191602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5133,7 +5159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1443415847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5973,8 +5999,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 132202656}
   dialogueText: {fileID: 1359880889}
+  logbookNameText: {fileID: 1969087767218885473}
+  logbookDialogueText: {fileID: 8005099000981271028}
   dialogueTrigger: {fileID: 564975962}
+  dialogueTrigger2: {fileID: 4604293408844333722}
   bonusColorsUnlocked: {fileID: 299741639}
+  logbookDialogueBox: {fileID: 4850146793206320559}
+  gamelabDialogueBox: {fileID: 394667290}
   gameFinished: 0
   pastelNeedles: {fileID: 775690227}
   animator: {fileID: 394667292}
@@ -6073,7 +6104,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1758888241}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 75922979}
+        m_TargetAssemblyTypeName: OnClickFunctions, Assembly-CSharp
+        m_MethodName: ExitTheGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1758888241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8228,7 +8271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3872175014931550282}
   m_Layer: 5
-  m_Name: DialogueContainer
+  m_Name: DialogueContainer2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8463,7 +8506,7 @@ GameObject:
   - component: {fileID: 1207249222131571984}
   - component: {fileID: 5890290622733363775}
   - component: {fileID: 6104503228641237515}
-  - component: {fileID: 9184942056132398758}
+  - component: {fileID: 4604293408844333722}
   m_Layer: 0
   m_Name: GameDialogue
   m_TagString: Untagged
@@ -8471,6 +8514,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4604293408844333722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4604293408844333721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c3fe0e5dadb9a42b0e1d33e2b86ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finalConversation:
+    name: Scientist
+    sentences:
+    - 'Oh? You want to know more about us? Sure, I''ll humor you. Give me a moment. '
+    - '...................... ................................................ ......................................................
+      ......... ..................... ............................
+
+      .........................
+      .............................................'
+    - All done. Check the last page. It's not very often I get to talk about myself.
+      (Or my peers.)
+  unlockedColors: {fileID: 11400000, guid: 45e0a1ff50245fa44a6b7ba8bb8eb589, type: 2}
+  gameDialogueTrigger: {fileID: 564975960}
+  logBook: {fileID: 841695418}
+  gameScreen: {fileID: 516839251}
+  endConversation: 0
+  currentCount: 0
 --- !u!1 &4711432127003883312
 GameObject:
   m_ObjectHideFlags: 0
@@ -8501,7 +8573,7 @@ GameObject:
   - component: {fileID: 278219955262882180}
   - component: {fileID: 4850146793206320560}
   m_Layer: 5
-  m_Name: DialogueBox
+  m_Name: DialogueBox2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8631,7 +8703,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 75922979}
         m_TargetAssemblyTypeName: OnClickFunctions, Assembly-CSharp
         m_MethodName: ExitTheGame
         m_Mode: 1
@@ -9263,10 +9335,10 @@ RectTransform:
   m_Father: {fileID: 2351130759817243976}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 242, y: -420}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6607144748944149317
 GameObject:
@@ -10342,9 +10414,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1756697827}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: DisplayNextSentence
+        m_MethodName: LogBookDisplayNextSentence
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10392,50 +10464,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &9184942056132398758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4604293408844333721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0c8c816dc3c6441bbb9f2c4e6d7485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Scientist
-    sentences:
-    - Oh, you're here. I appreciate your co-operation with this experiment. We are
-      very excited to see what comes out of it.
-    - 'This individual here is named ''Null''. We want to see how its'' DNA reacts
-      when injected with different genetic samples. '
-    - 'They are placed to the left of you inside color marked syringes. Drag them
-      over to ''Null'' to start the experiments. I will be taking notes. '
-  allPrimariesUnlocked:
-    name: Scientist
-    sentences:
-    - We have exhausted all possible outcomes with this batch. Luckily 'The Higher
-      Ups' have created a new batch of genetic samples to tryout.
-    - '''The Higher Ups'' also noted that whatever comes from this set is incompatible
-      with the previous batch. Do keep that in mind.'
-  allColorsUnlocked:
-    name: Scientist
-    sentences:
-    - 'Hmmm...all possible lifeforms that could result from this batch have been
-      discovered. For now, I declare this experiment over. '
-    - 'Such an overwhelming success! We have so many new experiments to call our 
-      peers. If you haven''t already be sure to check the logbook. '
-    - 'I''ve taken great pains to organize everything I''ve observed into a neat
-      and orderly fashion. '
-  finalDialogue:
-    name: 
-    sentences: []
-  unlockedColors: {fileID: 11400000, guid: 45e0a1ff50245fa44a6b7ba8bb8eb589, type: 2}
-  logBook: {fileID: 841695418}
-  gameScreen: {fileID: 1443415846}
-  currentCount: 0
 --- !u!222 &9199201175749123965
 CanvasRenderer:
   m_ObjectHideFlags: 0

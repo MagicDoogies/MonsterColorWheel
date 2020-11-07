@@ -11,6 +11,8 @@ public class DialogueTrigger : MonoBehaviour
     public Dialogue finalDialogue;
     public ColorContainer unlockedColors; //reference to the 'MonsterCounter' script.
 
+   
+
     public GameObject logBook;
     public GameObject gameScreen;
 
@@ -29,7 +31,7 @@ public class DialogueTrigger : MonoBehaviour
     {
 
         currentCount = unlockedColors.elements.Count;//Keeps constant track of how many elements are currently unlocked.
-        Debug.Log("Player unlocked " + currentCount);
+        
 
         if (currentCount == 1 && firstMilestone == true)
         {
@@ -49,13 +51,6 @@ public class DialogueTrigger : MonoBehaviour
             TriggerDialogue();
         }
 
-        if (currentCount == 36 )// If the counter unlocked counter is 36 AND the player is in the logbook screen, run this dialogue.
-        {
-            dialogue = finalDialogue;
-            TriggerDialogue(); 
-        }
-
-      
     }
 
     public void TriggerDialogue()
@@ -82,11 +77,6 @@ public class DialogueTrigger : MonoBehaviour
         {
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         }
-        if (currentCount == 36 && logBook.activeSelf == true)
-        {
-            print("Logbook dialogue is firing off");
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-        }
-
+       
     }
 }

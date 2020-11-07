@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: Scientist
   type: ---
-  unlockText: blah blah blah. All I say is nerdy shit.
+  unlockText: I am both very intelligent and highly dangerous. If I so choose I can
+    dig into another organism and take over their body. I have the traits of a 'virus'
+    they say. When I was created in ### I had a lot of fun taking over the competitons
+    and embarassing them in public. But eventually I got tired of it and felt my
+    talents were better suited research and experimentation.
   hexText: ---
   heightText: 3 ft
   weightText: 3 lbs

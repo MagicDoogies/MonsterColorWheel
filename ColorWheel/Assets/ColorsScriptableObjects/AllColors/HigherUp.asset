@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: The Higher Ups
   type: ---
-  unlockText: 'They don''t like talking about themselves. Sorry. '
+  unlockText: They are both one but many. They have been here for as long as I can
+    remember. They don't like talking too much about themselves too much. Sorry I'm
+    light on the details.
   hexText: ---
   heightText: 12 ft
   weightText: 600 lbs
