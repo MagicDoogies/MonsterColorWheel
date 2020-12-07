@@ -11,6 +11,8 @@ public class TriggerTest : MonoBehaviour
     
 
     public ColorContainer unlockedColors;
+   
+
     public Colors currentColor;
     public Colors initialColor; // The first color that the player gets when they start the game. 
     public ResultsBox resultBox;
@@ -55,7 +57,7 @@ public class TriggerTest : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)// if player uses a needle with X tag on Y color it turns into Z. In other words, this controls the color mixing function. 
     {
-       
+        FindObjectOfType<AudioManager>().Play("CreateMonster");
 
        if(collision.gameObject.tag == "Yellow")//if the object interacting with blue creature is a yellow needle.
         {

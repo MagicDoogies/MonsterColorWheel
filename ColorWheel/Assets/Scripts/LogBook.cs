@@ -18,6 +18,12 @@ public class LogBook : MonoBehaviour
     public TMP_Text weightText;
     public TMP_Text typeText;
     public TMP_Text hexCode;
+    public TMP_Text nicknameText;
+
+    public GameObject inputText;
+    public TMP_Text inputTextField;
+
+    public Colors currentColor;// this will store information of the currently clicked on slot.
 
     public Image colorImage;
 
@@ -30,6 +36,31 @@ public class LogBook : MonoBehaviour
     public void Awake()
     {
         logBook = this;
+    }
+    public void Refresh()//TRefreshes the display based on the current color (so the nickname shows up in real time.)
+    {
+        FindObjectOfType<AudioManager>().Play("DexClick");
+
+        inputText.SetActive(true);
+        inputTextField.text = "";
+       
+
+        DisplayDescrption(currentColor.unlockText);
+        DisplayColorName(currentColor.color);
+        DisplayColorType(currentColor.type);
+        DisplayColorHex(currentColor.hexText);
+        DisplayColorHeight(currentColor.heightText);
+        DisplayColorWeight(currentColor.weightText);
+        DisplayColorImage(currentColor.dexImageSprite);
+
+        
+        if (currentColor.hasNickname)//if the boolean 'has nickname is true in the colorTemplate scriptable object.
+        {
+            DisplayNickname(currentColor.nickname);//initiate this function in Logbook script.
+        }
+        else
+            DisplayNickname("");//If the scriptable object has no nickname, display nothing.
+
     }
     void OnEnable()
     {
@@ -107,6 +138,10 @@ public class LogBook : MonoBehaviour
         colorImage.sprite = sprite;
     }
 
+    public void DisplayNickname(string nickName)
+    {
+        nicknameText.text = nickName;//Change the nickname to whatever the player input in the name field.
+    }
     // Update is called once per frame
     void Update()
     {

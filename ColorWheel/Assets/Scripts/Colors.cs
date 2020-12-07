@@ -6,6 +6,7 @@ using System;
 public class Colors: ScriptableObject
 {
     public string color;
+    public string nickname;
     public string type;
     public string unlockText;
     public string hexText;
@@ -20,10 +21,10 @@ public class Colors: ScriptableObject
     public Sprite pastelYellowResult;
     public Sprite pastelBlueResult;
     public Sprite pastelRedResult;
-    public bool isPrimary;
-    public bool isSecondary;
-    public bool isTertiary;
-    public bool isPastel;
+
+
+    public bool hasNickname = false;
+   
 
     //these are all containters for sprites that will be displayed when players use a specific needle to interact with a color. 
     public Colors redNeedleUnlock;

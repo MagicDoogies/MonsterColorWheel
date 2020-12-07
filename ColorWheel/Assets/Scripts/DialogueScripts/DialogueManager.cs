@@ -75,6 +75,7 @@ public class DialogueManager : MonoBehaviour
         logbookDialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
+            FindObjectOfType<AudioManager>().Play("TextDisplay");
             logbookDialogueText.text += letter;
             yield return null;
         }
@@ -135,6 +136,7 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
+            FindObjectOfType<AudioManager>().Play("TextDisplay");
             dialogueText.text += letter;
             yield return null;
         }
