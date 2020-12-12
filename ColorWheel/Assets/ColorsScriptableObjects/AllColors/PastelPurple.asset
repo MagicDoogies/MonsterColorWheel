@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelPurple
   m_EditorClassIdentifier: 
   color: Orchid
+  nickname: 
   type: Pastel
   unlockText: "It puts on a hypnotic performance for anyone who wants to spectate.
     #D75C5C and #F5DFB8 are big fans of its dances. It\u2019s really nice to see
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: 74c62b0faa1f9e543b26754201fb41d0, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: cd4ca866534769a46b90da391c32560d, type: 3}
   pastelRedResult: {fileID: 21300000, guid: cb63532b66e2b0a439b92c138cf28ca3, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 5f657ae2b17557840b6a2feeb57b716e, type: 3}
+  enemies: {fileID: 21300000, guid: f2b9f8016aae74b45be32b930d513525, type: 3}
+  combos: {fileID: 21300000, guid: 19f334cedc5fe2f4690d990cca703473, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelTeal
   m_EditorClassIdentifier: 
   color: Crystal
+  nickname: 
   type: Pastel
   unlockText: 'It emits soundwaves through its fins! I suspect this is how it communicates
     with others. Or at least with its peers. They appear capable of understanding
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 60e4ae1fa434c654b81e1a4fe9f6653f, type: 3}
+  enemies: {fileID: 21300000, guid: ee761749eede9aa4e94ba9fc5b174a3d, type: 3}
+  combos: {fileID: 21300000, guid: e5cc73b5e8c382549a583e6232bd9dbb, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

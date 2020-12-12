@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelLime
   m_EditorClassIdentifier: 
   color: Lime
+  nickname: 
   type: pastel
   unlockText: "Don\u2019t put any objects or persons of value near this one. If it
     can fit in its mouth it\u2019s fair game. It won\u2019t give back it\u2019s ill
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
   pastelRedResult: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: ba2d94dea7897714d8703774a74aa969, type: 3}
+  enemies: {fileID: 21300000, guid: 60970faecb00bc34c8898ab85726e00f, type: 3}
+  combos: {fileID: 21300000, guid: fca084e970a8def4e91c5e739a09a5d8, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

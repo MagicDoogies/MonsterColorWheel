@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TealColor
   m_EditorClassIdentifier: 
   color: Teal
+  nickname: 
   type: Tertiary
   unlockText: "Very shy and very secretive. It doesn\u2019t like sunlight very much
     and prefers dark places. We changed its container to reflect those preferences.
@@ -30,10 +31,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 1
-  isPastel: 0
+  friends: {fileID: 21300000, guid: 34e07adeb920d874f95de7ae20a0042d, type: 3}
+  enemies: {fileID: 21300000, guid: 25631f0900c642f4786c372da0e15d7c, type: 3}
+  combos: {fileID: 21300000, guid: 7236abc35c8d0fd4b906ae67a9874073, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

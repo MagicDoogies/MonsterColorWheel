@@ -16,6 +16,9 @@ public class OnClickFunctions : MonoBehaviour
     public GameObject SubMenu;
     public LogBook logbookScript;
     public GameObject inputText;
+    public GameObject inputField;
+
+    public GameObject editButton;
 
     public GameObject audio;
 
@@ -34,6 +37,7 @@ public class OnClickFunctions : MonoBehaviour
     public GameObject defaultDescriptionText;
     public GameObject defaultTypeText;
     public GameObject defaultColorNameText;
+    public GameObject defaultNicknameText;
     
 
     public GameObject dexImage;
@@ -68,25 +72,28 @@ public class OnClickFunctions : MonoBehaviour
         {
             labTheme.SetActive(false);
             dexTheme.SetActive(false);
+            menuTheme.SetActive(true);
         }
 
         if (CreditsScreen.activeSelf == true)
         {
             labTheme.SetActive(false);
             dexTheme.SetActive(false);
+            menuTheme.SetActive(true);
         }
 
         if (GameScreen.activeSelf == true)
         {
             menuTheme.SetActive(false);
+            dexTheme.SetActive(false);
             labTheme.SetActive(true);
         }
-        if (SubMenu.activeSelf == true)
+       /* if (SubMenu.activeSelf == true)
         {
             labTheme.SetActive(false);
             dexTheme.SetActive(false);
             menuTheme.SetActive(true);
-        }
+        }*/
     }
 
     public void CreditsButton()//if the credits button on the Home menus is selected, activate the Credits canvas and deactivate the Main menu screen.
@@ -107,14 +114,12 @@ public class OnClickFunctions : MonoBehaviour
     public void StartButton()
     {
         //this space will activate the main game UI and deactivate all the others.
-
-
-
         FindObjectOfType<AudioManager>().Play("Clicked");
 
-        SubMenu.SetActive(true);
+        GameScreen.SetActive(true);
         MainMenuScreen.SetActive(false);
-        unlockedColors.elements.Clear();// Clears the list when the player hits the start button. 
+       /* unlockedColors.elements.Clear();*/// Clears the list when the player hits the start button. 
+        
         currentDexImage.sprite = defaultDexImage.sprite;
         Debug.Log(currentDexImage.sprite);//The line and the entire section below establishes a default state for the description box when nothing has been selected or when the player restarts the game.
         defaultHexText.GetComponent<TMP_Text>().text = "---";
@@ -123,9 +128,8 @@ public class OnClickFunctions : MonoBehaviour
         defaultTypeText.GetComponent<TMP_Text>().text = "---";
         defaultDescriptionText.GetComponent<TMP_Text>().text = "---";
         defaultColorNameText.GetComponent<TMP_Text>().text = "---";
+        defaultNicknameText.GetComponent<TMP_Text>().text = "";
 
-
-        
         ResetColorNickname();//When the start button is clicked it activates this function.
 
     }
@@ -133,40 +137,40 @@ public class OnClickFunctions : MonoBehaviour
     public void GameReturnButton()//Returns the player to the main game screen. 
     {
         FindObjectOfType<AudioManager>().Play("Clicked");
-        SubMenu.SetActive(false);
+        GameScreen.SetActive(false);
         MainMenuScreen.SetActive(true);
 
 
     }
 
-    public void LogBookToSubmenu()//
+  /*  public void LogBookToSubmenu()//
     {
         FindObjectOfType<AudioManager>().Play("Clicked");
         Logbook.SetActive(false);
         SubMenu.SetActive(true);
-    }
+    }*/
 
-    public void SubMenuReturn()//If you are in the labratory scene, you get sent back to the submenu screen. 
+   /* public void SubMenuReturn()//If you are in the labratory scene, you get sent back to the submenu screen. 
     {
         FindObjectOfType<AudioManager>().Play("Clicked");
         GameScreen.SetActive(false);
         SubMenu.SetActive(true);
-    }
+    }*/
 
     public void GoToLogBook()//Sends you to the logbook screen.
     {
         FindObjectOfType<AudioManager>().Play("Clicked");
 
-        SubMenu.SetActive(false);
+        GameScreen.SetActive(false);
         Logbook.SetActive(true);
     }
 
-    public void StartGameButton()//Takes you to the submenu when you hit the start button.
+    public void StartGameButton()//Takes you to the laboratory screen when clicked.
     {
         FindObjectOfType<AudioManager>().Play("Clicked"); //Play the button clicked audio from the AudioManager game object.
 
         GameScreen.SetActive(true);
-        SubMenu.SetActive(false);
+        Logbook.SetActive(false);
         
     }
     
@@ -216,7 +220,13 @@ public class OnClickFunctions : MonoBehaviour
         Debug.Log(ColorReset);
         resetColor.BackToClear();
     }
+    public void ActivateNickname()
+    {
+        inputField.SetActive(true);
+        editButton.SetActive(false);
+      
 
+    }
     public void SetNickname(string name)// function to allow players to change the nickname of the colors.
     {
         if (logbookScript.currentColor != null)// if there is a current color

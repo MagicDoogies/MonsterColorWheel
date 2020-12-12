@@ -21,6 +21,9 @@ public class Colors: ScriptableObject
     public Sprite pastelYellowResult;
     public Sprite pastelBlueResult;
     public Sprite pastelRedResult;
+    public Sprite friends;
+    public Sprite enemies;
+    public Sprite combos;
 
 
     public bool hasNickname = false;

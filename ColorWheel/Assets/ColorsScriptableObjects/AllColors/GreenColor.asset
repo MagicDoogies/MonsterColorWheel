@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: GreenColor
   m_EditorClassIdentifier: 
   color: Green
+  nickname: 
   type: Secondary
   unlockText: ' It only has one thought- ramming its head into any object to see
     if it breaks. I want to see it interact with #4F2E14. One will keep getting back
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 1
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: f0c57dcd034c31046852a15852f25960, type: 3}
+  enemies: {fileID: 21300000, guid: 5e29aabe101286843ac0930aba3476a6, type: 3}
+  combos: {fileID: 21300000, guid: 47f5b1dd396dbbe4594d0fc673aa1532, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000, guid: 4cab7528d7cb54f4e8b2eaaba26328dd, type: 2}
   yellowNeedleUnlock: {fileID: 11400000, guid: 2bffa50b0f6acb847aabdbd55c7378aa, type: 2}
   blueNeedleUnlocked: {fileID: 11400000, guid: 9997ad2d6c758b54ead92fe507f14414, type: 2}

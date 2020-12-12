@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelVermillion
   m_EditorClassIdentifier: 
   color: Coral
+  nickname: 
   type: Pastel
   unlockText: "The meatheads at the facility will be happy to know that we created
     another organism to add within their ranks. When it\u2019s not testing it\u2019s
@@ -31,10 +32,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 9f0d58b48257ca148ae9c4d0261baa2c, type: 3}
+  enemies: {fileID: 21300000, guid: d13ec639d8a24b449ac7c50b803df0b6, type: 3}
+  combos: {fileID: 21300000, guid: fa4de877c059b804da323113d9c52f9a, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelGreen
   m_EditorClassIdentifier: 
   color: Seafoam
+  nickname: 
   type: Pastel
   unlockText: "I call this one the \u2018Enabler\u2019 because if someone is up to
     mischief you can always count on this one being at the scene cheering them on.
@@ -30,10 +31,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: 9709d10da8610ec418f0fbef15247658, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: c57611a5c80812946af3b06632fdf4e1, type: 3}
   pastelRedResult: {fileID: 21300000, guid: 74c62b0faa1f9e543b26754201fb41d0, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 4d39883704683804e95dd8b895778b87, type: 3}
+  enemies: {fileID: 21300000, guid: 19fdca97cac0457469c7c04967285563, type: 3}
+  combos: {fileID: 21300000, guid: 00da1b23e71f5754fb5526057913c013, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

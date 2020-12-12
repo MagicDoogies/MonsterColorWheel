@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelViolet
   m_EditorClassIdentifier: 
   color: Blueberry
+  nickname: 
   type: Pastel
   unlockText: "It fancies itself as a hero of sorts. Always swooping in to save the
     day. The day of #F18DB0 to be exact. When it\u2019s not saving the pink goop
@@ -31,10 +32,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 5c17acd4c64aee146806a3bf6463b2c0, type: 3}
+  enemies: {fileID: 21300000, guid: 7aa8d1896bb202c42aa5da139b0f5133, type: 3}
+  combos: {fileID: 21300000, guid: bd9819a7ec38947448c90fd12f98435b, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

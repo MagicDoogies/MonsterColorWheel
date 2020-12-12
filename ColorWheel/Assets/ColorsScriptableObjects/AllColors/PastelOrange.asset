@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelOrange
   m_EditorClassIdentifier: 
   color: Peach
+  nickname: 
   type: Pastel
   unlockText: "It\u2019s center of gravity is always in flux. It\u2019s head? Neck?
     Is so long that it can\u2019t do anything but move around slowly otherwise it
@@ -30,10 +31,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: 8ebdd38fc1ce9464ab087cf346cf746e, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: 74c62b0faa1f9e543b26754201fb41d0, type: 3}
   pastelRedResult: {fileID: 21300000, guid: a8de65b21fba464438d622c2ee475503, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 930b3968dcbfd4f4ea83386e866ccf12, type: 3}
+  enemies: {fileID: 21300000, guid: 97b314cf36879164ebe5990a0f550770, type: 3}
+  combos: {fileID: 21300000, guid: 0d8a43882ca4e9546967304852a264e2, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

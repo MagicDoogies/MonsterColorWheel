@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AmberColor
   m_EditorClassIdentifier: 
   color: Amber
+  nickname: 
   type: Tertiary
   unlockText: "It\u2019s sizzling with energy! Look, when you pick up the flakes
     it hums with hums with energy and is warm to the touch. "
@@ -28,10 +29,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 1
-  isPastel: 0
+  friends: {fileID: 21300000, guid: 1ae6525f8aa0f804babe4057f34d640f, type: 3}
+  enemies: {fileID: 21300000, guid: a6bdcedc6e0e7c74b8c89e0bb3fb1ff1, type: 3}
+  combos: {fileID: 21300000, guid: de587032a0d3f8b489ad7a0d8d9d289e, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

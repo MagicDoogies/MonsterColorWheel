@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: PastelBlue
   m_EditorClassIdentifier: 
   color: Sky
+  nickname: 
   type: Pastel
   unlockText: "Harder than diamonds, light as a feather\u2026and a sensitive crybaby.
-    This runs on high emotions and is always one situation away from crying its eye
-    out. It\u2019s adorable when it does that though. "
+    This one runs high emotions and is always one situation away from crying its
+    eye out. It\u2019s adorable when it does that though. "
   hexText: A1C5FF
   heightText: 4 in
   weightText: .5 lbs
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: 582663ef307dd2c4b8618210c3d0156d, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: a58e0dff12d449b4fa045a89c23a20fd, type: 3}
   pastelRedResult: {fileID: 21300000, guid: 305296fee2ac2f64fab467e8bd4616b9, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 2eb748f211b417a4fb66e86ffc494c1f, type: 3}
+  enemies: {fileID: 21300000, guid: 8c2f0d98d9403ba4fadbb95e2e85cbdd, type: 3}
+  combos: {fileID: 21300000, guid: c0188ca4c38404b4e8399a4beaf64dc6, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

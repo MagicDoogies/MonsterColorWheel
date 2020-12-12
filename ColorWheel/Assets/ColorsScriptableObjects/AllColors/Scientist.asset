@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Scientist
   m_EditorClassIdentifier: 
   color: Scientist
+  nickname: 
   type: ---
   unlockText: I am both very intelligent and highly dangerous. If I so choose I can
     dig into another organism and take over their body. I have the traits of a 'virus'
@@ -31,10 +32,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 0}
   pastelBlueResult: {fileID: 0}
   pastelRedResult: {fileID: 0}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  enemies: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  combos: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 0}
   yellowNeedleUnlock: {fileID: 0}
   blueNeedleUnlocked: {fileID: 0}

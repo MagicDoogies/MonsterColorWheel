@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelEcru
   m_EditorClassIdentifier: 
   color: Cream
+  nickname: 
   type: Pastel
   unlockText: 'This one is capable of speech! And boy does it have a lot (of nothing)
     to say. All attempts at trying to engage in meaningful conversation was fruitless.
@@ -30,10 +31,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: a53dab5ae2b8a1242bd900c12160b58f, type: 3}
+  enemies: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  combos: {fileID: 21300000, guid: 8322a79f744c88847abbbdcbbfb532c2, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

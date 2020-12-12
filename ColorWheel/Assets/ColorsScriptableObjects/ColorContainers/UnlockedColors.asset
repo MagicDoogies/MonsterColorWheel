@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2571058a3cd8f4f811b6f834522b7f, type: 3}
   m_Name: UnlockedColors
   m_EditorClassIdentifier: 
-  elements:
-  - {fileID: 11400000, guid: a4772d3adb5d2664d8ea04c5a5fa0246, type: 2}
+  elements: []

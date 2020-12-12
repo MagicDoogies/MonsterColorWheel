@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ClearColor
   m_EditorClassIdentifier: 
   color: Clear
+  nickname: 
   type: Null
   unlockText: An empty vessel waiting to be molded into something new. It doesn't
     seem to react or be affected by any outside stimulus. But scans have shown that
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: 1074ccde1fb220d4586ec99db575780d, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: a58e0dff12d449b4fa045a89c23a20fd, type: 3}
   pastelRedResult: {fileID: 21300000, guid: 9b91ce8635dbd884d9f87e2be992337b, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  enemies: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  combos: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000, guid: fd1e0aeffdea53d4c9c580cbb137add1, type: 2}
   yellowNeedleUnlock: {fileID: 11400000, guid: b43a6aed4b723704b8c68a0b75bfc038, type: 2}
   blueNeedleUnlocked: {fileID: 11400000, guid: ca1f78eddf8819a4698e62e90e5b7ff8, type: 2}

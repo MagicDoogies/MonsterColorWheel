@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: VermillionColor
   m_EditorClassIdentifier: 
   color: 'Vermillion '
+  nickname: 
   type: Tertiary
   unlockText: "A \u2018Gentle Giant\u2019 with a frightening exterior. I\u2019ve
     observed immense power within this experiment but not matter how many times it\u2019s
@@ -30,10 +31,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 1
-  isPastel: 0
+  friends: {fileID: 21300000, guid: 23c76e6a361585f48ad20cf5b4c8cfc3, type: 3}
+  enemies: {fileID: 21300000, guid: 1771ac1c62fec6e498ad2319dea908d3, type: 3}
+  combos: {fileID: 21300000, guid: 058f8bea3a22bb74198c7f8e69d9f75c, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

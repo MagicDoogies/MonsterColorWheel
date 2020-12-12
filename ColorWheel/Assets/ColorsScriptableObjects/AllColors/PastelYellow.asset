@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelYellow
   m_EditorClassIdentifier: 
   color: Custard
+  nickname: 
   type: Pastel
   unlockText: "It\u2019s so soft I barely register I\u2019m touching it at all. This
     one spends its days quietly floating throughout its enclosure without a care
@@ -31,10 +32,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: 1074ccde1fb220d4586ec99db575780d, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: 582663ef307dd2c4b8618210c3d0156d, type: 3}
   pastelRedResult: {fileID: 21300000, guid: 817b984c3c5fd2d4da6578e167ead5f7, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 1
+  friends: {fileID: 21300000, guid: 3aaa27397ea2f7249b0770347a159465, type: 3}
+  enemies: {fileID: 21300000, guid: 95ec2d8c7668f294890285e408961d95, type: 3}
+  combos: {fileID: 21300000, guid: f33d4ae15466b3f41bcc7f35b680bc4a, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

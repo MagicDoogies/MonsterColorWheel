@@ -11,6 +11,8 @@ public class LogBook : MonoBehaviour
     public ColorContainer displayColors;
     public static LogBook logBook;
     public Button pageForwardButton;
+
+    public GameObject editButton;
     // Start is called before the first frame update
     public TMP_Text colorDescription;
     public TMP_Text nameText;
@@ -23,9 +25,14 @@ public class LogBook : MonoBehaviour
     public GameObject inputText;
     public TMP_Text inputTextField;
 
+    public GameObject inputField;
+
     public Colors currentColor;// this will store information of the currently clicked on slot.
 
     public Image colorImage;
+    public Image colorEnemy;
+    public Image colorFriend;
+    public Image colorCombo;
 
     public GameObject descriptionPanel;
 
@@ -40,7 +47,7 @@ public class LogBook : MonoBehaviour
     public void Refresh()//TRefreshes the display based on the current color (so the nickname shows up in real time.)
     {
         FindObjectOfType<AudioManager>().Play("DexClick");
-
+        
         inputText.SetActive(true);
         inputTextField.text = "";
        
@@ -52,14 +59,27 @@ public class LogBook : MonoBehaviour
         DisplayColorHeight(currentColor.heightText);
         DisplayColorWeight(currentColor.weightText);
         DisplayColorImage(currentColor.dexImageSprite);
+        DisplayColorCombo(currentColor.combos);
+        DisplayColorEnemy(currentColor.enemies);
+        DisplayColorFriend(currentColor.friends);
+
 
         
         if (currentColor.hasNickname)//if the boolean 'has nickname is true in the colorTemplate scriptable object.
         {
             DisplayNickname(currentColor.nickname);//initiate this function in Logbook script.
+            editButton.SetActive(false);
         }
         else
             DisplayNickname("");//If the scriptable object has no nickname, display nothing.
+            editButton.SetActive(true);
+
+        if (editButton.activeSelf == true)
+        {
+            inputField.SetActive(false);
+        }
+       
+        /*editButton.SetActive(true);*///If the monster has no nickname, then the edit button will appear.
 
     }
     void OnEnable()
@@ -143,6 +163,18 @@ public class LogBook : MonoBehaviour
         nicknameText.text = nickName;//Change the nickname to whatever the player input in the name field.
     }
     // Update is called once per frame
+    public void DisplayColorFriend(Sprite friend)//Displays friends of this color
+    {
+        colorFriend.sprite = friend;
+    }
+    public void DisplayColorEnemy(Sprite enemy)//Displays enemies of this color
+    {
+        colorEnemy.sprite = enemy;
+    }
+    public void DisplayColorCombo(Sprite combo)//Displays combos of this color.
+    {
+        colorCombo.sprite = combo;
+    }
     void Update()
     {
         

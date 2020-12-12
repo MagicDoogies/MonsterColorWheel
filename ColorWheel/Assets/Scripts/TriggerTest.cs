@@ -21,7 +21,7 @@ public class TriggerTest : MonoBehaviour
     public DialogueManager dialogueManager;
     void OnEnable()
     {
-        
+        print("I'm activating");
         SetColor(initialColor); //Upon the list being cleared, insures that the first unlocked color is 'clear' sprite.  
     }
 
@@ -50,7 +50,9 @@ public class TriggerTest : MonoBehaviour
             unlockedColors.elements.Add(newColor);//Adds the new color to the unlocked colors scriptable object. (to do: Do not allow duplicates.)
         }
         currentColor = newColor;// Sets the new current color.
+        Debug.Log("I am the color " + newColor);
         resultBox.MonsterChange(newColor);
+        
         
         
     }

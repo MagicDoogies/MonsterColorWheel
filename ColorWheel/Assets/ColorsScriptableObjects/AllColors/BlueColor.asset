@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BlueColor
   m_EditorClassIdentifier: 
   color: Blue
+  nickname: 
   type: Primary
   unlockText: "It has a stoic personality. No, it has a boring personality. It just
     stares at you like it has nothing else to do. It has a gelatinous, dense exterior
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 1
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: a447b83e03b32f9409e9aacf5b601fe7, type: 3}
+  enemies: {fileID: 21300000, guid: 379b49290954f2c4bb07129584263233, type: 3}
+  combos: {fileID: 21300000, guid: d1a279493275c7444ac72ec33847ba8c, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000, guid: fc97e591bad08f04289756fb34644188, type: 2}
   yellowNeedleUnlock: {fileID: 11400000, guid: 58c871984ffb85f458099d44b6b84762, type: 2}
   blueNeedleUnlocked: {fileID: 11400000}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: EcruColor
   m_EditorClassIdentifier: 
   color: Ecru
+  nickname: 
   type: Neutral
   unlockText: "This one gives me gives off red flags. That\u2019s saying a lot considering
     the other experiments we have in the lab. It has feet but it\u2019s always floating.
@@ -29,10 +30,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: 4ad0c50bc8a5d6c4baba828ba737a13b, type: 3}
+  enemies: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  combos: {fileID: 21300000, guid: 8f29594fe859123429ccfaaccffa88af, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}

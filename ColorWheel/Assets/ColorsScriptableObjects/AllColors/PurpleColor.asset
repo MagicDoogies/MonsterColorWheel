@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PurpleColor
   m_EditorClassIdentifier: 
   color: Purple
+  nickname: Grapes
   type: Secondary
   unlockText: "Vain, jealous, snooty, spiteful, petty\u2026ugh, never have I met
     such a high maintenance experiment in my life! Nobody seems to live up to whatever
@@ -30,10 +31,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 1
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: e52a6371e10e16a4ab2ddbf573b39c76, type: 3}
+  enemies: {fileID: 21300000, guid: 7da0990f8aca7f44bb3eff555ec4b890, type: 3}
+  combos: {fileID: 21300000, guid: 6dd4bcc9c983dbb42a82a173ddff7ced, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000, guid: 1dc284315fa389246bb51bec4c91c01b, type: 2}
   yellowNeedleUnlock: {fileID: 11400000, guid: 4cab7528d7cb54f4e8b2eaaba26328dd, type: 2}
   blueNeedleUnlocked: {fileID: 11400000, guid: 9780ff452e4b22a4081a4718c912ef90, type: 2}

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PastelMaroon
   m_EditorClassIdentifier: 
   color: Brick
+  nickname: 
   type: Pastel
   unlockText: "It definitely possess telekinetic powers. When I\u2019m around it
     I feel a sense of weightlessness and a voice in my head keeps asking me to\u2026make
@@ -30,10 +31,10 @@ MonoBehaviour:
   pastelYellowResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelBlueResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
   pastelRedResult: {fileID: 21300000, guid: d13e7250dc5977949be9ca3d81f1df74, type: 3}
-  isPrimary: 0
-  isSecondary: 0
-  isTertiary: 0
-  isPastel: 0
+  friends: {fileID: 21300000, guid: a6bf8805dec0f2a4aa1f9fdd33952008, type: 3}
+  enemies: {fileID: 21300000, guid: b165fda323b6cae42b85e474c3d8303e, type: 3}
+  combos: {fileID: 21300000, guid: 34c0b011e78e4fa4296b115dcda1d50d, type: 3}
+  hasNickname: 0
   redNeedleUnlock: {fileID: 11400000}
   yellowNeedleUnlock: {fileID: 11400000}
   blueNeedleUnlocked: {fileID: 11400000}
